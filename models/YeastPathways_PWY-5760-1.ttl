@@ -3,7 +3,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -14,7 +14,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -25,7 +25,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -38,19 +38,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002233_CHEBI_58374_RXN-9015_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002234_CHEBI_57945_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58374_RXN-9015>
+          <http://model.geneontology.org/CHEBI_57945_3-PROPANAL-DEHYDROGENASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -61,7 +61,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -80,7 +80,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -94,7 +94,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -105,7 +105,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -116,7 +116,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -132,7 +132,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -150,7 +150,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -168,11 +168,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002233_CHEBI_57540_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002233_CHEBI_58374_RXN-9015_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -180,7 +180,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57540_3-PROPANAL-DEHYDROGENASE-RXN>
+          <http://model.geneontology.org/CHEBI_58374_RXN-9015>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -191,7 +191,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -211,26 +211,12 @@
 <http://purl.obolibrary.org/obo/RO_0002234>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://purl.obolibrary.org/obo/RO_0002413>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
 <http://model.geneontology.org/reaction_RXN-9015_location_lociGO_0005829>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005829> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/ev_w_id_RXN-9015_RO_0002413_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY-5760-1" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -242,7 +228,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -257,7 +243,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -274,32 +260,13 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY-5760-1SmallMolecule74307> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002333_YMR170C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller_SGD_PWY_YeastPathways_PWY-5760-1> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YMR170C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller>
-] .
 
 <http://purl.org/dc/elements/1.1/source>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -312,7 +279,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -328,7 +295,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -341,11 +308,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002233_CHEBI_15377_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002233_CHEBI_57540_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -353,7 +320,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15377_3-PROPANAL-DEHYDROGENASE-RXN>
+          <http://model.geneontology.org/CHEBI_57540_3-PROPANAL-DEHYDROGENASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -364,7 +331,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -378,17 +345,6 @@
 <http://purl.obolibrary.org/obo/RO_0002233>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_BFO_0000066_reaction_3-PROPANAL-DEHYDROGENASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY-5760-1>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY-5760-1" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/YeastPathways_PWY-5760-1/YeastPathways_PWY-5760-1>
         a       <http://purl.obolibrary.org/obo/GO_0019483> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -396,13 +352,24 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
                 "YeastPathways_PWY-5760-1" ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Pathway" .
+
+<http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_BFO_0000066_reaction_3-PROPANAL-DEHYDROGENASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY-5760-1>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-09-14" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY-5760-1" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/YMR170C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller>
         a       <http://identifiers.org/sgd/S000004780> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -411,7 +378,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -428,16 +395,13 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY-5760-1SmallMolecule74201> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://purl.obolibrary.org/obo/ECO_0000363>
-        a       <http://www.w3.org/2002/07/owl#Class> .
 
 <http://model.geneontology.org/YeastPathways_PWY-5760-1>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -448,7 +412,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/title>
                 "&beta;-alanine biosynthesis IV - imported from: Saccharomyces Genome Database" ;
         <http://purl.org/pav/providedBy>
@@ -461,7 +425,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -472,7 +436,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -492,7 +456,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -502,11 +466,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002333_YMR169C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002333_YMR170C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -514,7 +478,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YMR169C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller>
+          <http://model.geneontology.org/YMR170C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -525,7 +489,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -541,7 +505,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -552,7 +516,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -565,7 +529,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -582,7 +546,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -595,7 +559,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -603,21 +567,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_BFO_0000066_reaction_3-PROPANAL-DEHYDROGENASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002233_CHEBI_15377_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_3-PROPANAL-DEHYDROGENASE-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_15377_3-PROPANAL-DEHYDROGENASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -628,7 +592,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -653,7 +617,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -668,7 +632,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -685,7 +649,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -703,19 +667,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002234_CHEBI_57966_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002333_YMR169C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57966_3-PROPANAL-DEHYDROGENASE-RXN>
+          <http://model.geneontology.org/YMR169C-MONOMER_3-PROPANAL-DEHYDROGENASE-RXN_controller>
 ] .
 
 <http://geneontology.org/lego/modelstate>
@@ -729,7 +693,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -748,21 +712,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_BFO_0000050_YeastPathways_PWY-5760-1/YeastPathways_PWY-5760-1_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_BFO_0000066_reaction_3-PROPANAL-DEHYDROGENASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PWY-5760-1/YeastPathways_PWY-5760-1>
+          <http://model.geneontology.org/reaction_3-PROPANAL-DEHYDROGENASE-RXN_location_lociGO_0005829>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -773,7 +737,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -792,7 +756,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -813,7 +777,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -826,7 +790,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY-5760-1" ;
         <http://purl.org/pav/providedBy>
@@ -834,6 +798,23 @@
 
 <http://purl.org/dc/elements/1.1/contributor>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://model.geneontology.org/CHEBI_16240_RXN-9015>
+        a       <http://purl.obolibrary.org/obo/CHEBI_16240> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "hydrogen peroxide" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-09-14" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY-5760-1SmallMolecule74336> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://model.geneontology.org/RXN-9015>
         a       <http://purl.obolibrary.org/obo/GO_0052904> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -849,35 +830,16 @@
                 <http://model.geneontology.org/CHEBI_16240_RXN-9015> , <http://model.geneontology.org/CHEBI_57834_RXN-9015> , <http://model.geneontology.org/CHEBI_58374_RXN-9015> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YMR020W-MONOMER_RXN-9015_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY-5760-1BiochemicalReaction74278> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.BiochemicalReaction" .
-
-<http://model.geneontology.org/CHEBI_16240_RXN-9015>
-        a       <http://purl.obolibrary.org/obo/CHEBI_16240> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "hydrogen peroxide" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY-5760-1SmallMolecule74336> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <https://w3id.org/biolink/vocab/in_taxon>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -886,11 +848,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002234_CHEBI_57945_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_RO_0002234_CHEBI_57966_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -898,7 +860,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57945_3-PROPANAL-DEHYDROGENASE-RXN>
+          <http://model.geneontology.org/CHEBI_57966_3-PROPANAL-DEHYDROGENASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -909,7 +871,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -937,7 +899,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -950,21 +912,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'spermine + oxygen + H<sub>2</sub>O &rarr; spermidine + 3-aminopropanal + hydrogen peroxide' 'null' '3-aminopropanal + NAD<sup>+</sup> + H<sub>2</sub>O &rarr; &beta;-alanine + NADH' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY-5760-1" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9015_RO_0002413_3-PROPANAL-DEHYDROGENASE-RXN_SGD_PWY_YeastPathways_PWY-5760-1> ;
+          <http://model.geneontology.org/ev_w_id_3-PROPANAL-DEHYDROGENASE-RXN_BFO_0000050_YeastPathways_PWY-5760-1/YeastPathways_PWY-5760-1_SGD_PWY_YeastPathways_PWY-5760-1> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-9015> ;
+          <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/3-PROPANAL-DEHYDROGENASE-RXN>
+          <http://model.geneontology.org/YeastPathways_PWY-5760-1/YeastPathways_PWY-5760-1>
 ] .
 
 <http://purl.org/dc/elements/1.1/title>
@@ -982,7 +944,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>

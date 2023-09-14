@@ -3,7 +3,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -14,7 +14,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -25,7 +25,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -40,7 +40,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -57,7 +57,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -70,7 +70,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -80,11 +80,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002234_CHEBI_16038_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002234_CHEBI_60377_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -92,19 +92,8 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16038_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
+          <http://model.geneontology.org/CHEBI_60377_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
 ] .
-
-<http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_58190_ETHANOLAMINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-259>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-259" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -114,7 +103,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -124,6 +113,17 @@
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/CHEBI_15378_ETHANOLAMINE-KINASE-RXN>
 ] .
+
+<http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_58190_ETHANOLAMINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-259>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-09-14" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY3O-259" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 <http://purl.obolibrary.org/obo/CHEBI_15378>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -140,7 +140,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -156,7 +156,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -169,7 +169,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -185,7 +185,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -200,7 +200,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -213,7 +213,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -221,19 +221,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_58190_ETHANOLAMINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002234_CHEBI_29888_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58190_ETHANOLAMINE-KINASE-RXN>
+          <http://model.geneontology.org/CHEBI_29888_2.7.7.14-RXN>
 ] .
 
 <http://model.geneontology.org/CHEBI_60377_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
@@ -245,7 +245,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -258,7 +258,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -278,7 +278,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -289,7 +289,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -297,25 +297,6 @@
 
 <http://identifiers.org/sgd/S000003239>
         a       <http://www.w3.org/2002/07/owl#Class> .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002234_CHEBI_15378_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
-] .
 
 <http://model.geneontology.org/YeastPathways_PWY3O-259/YeastPathways_PWY3O-259>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0046474> ;
@@ -326,7 +307,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
@@ -338,19 +319,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINE-KINASE-RXN_RO_0002233_CHEBI_57603_ETHANOLAMINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002234_CHEBI_16038_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ETHANOLAMINE-KINASE-RXN> ;
+          <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57603_ETHANOLAMINE-KINASE-RXN>
+          <http://model.geneontology.org/CHEBI_16038_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
 ] .
 
 <http://model.geneontology.org/2.7.7.14-RXN>
@@ -367,18 +348,35 @@
                 <http://model.geneontology.org/CHEBI_57876_2.7.7.14-RXN> , <http://model.geneontology.org/CHEBI_29888_2.7.7.14-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YGR007W-MONOMER_2.7.7.14-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-259BiochemicalReaction20934> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.BiochemicalReaction" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINE-KINASE-RXN_RO_0002233_CHEBI_57603_ETHANOLAMINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/ETHANOLAMINE-KINASE-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_57603_ETHANOLAMINE-KINASE-RXN>
+] .
 
 <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
         a       <http://purl.obolibrary.org/obo/GO_0004307> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -397,7 +395,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -408,15 +406,12 @@
 <http://purl.obolibrary.org/obo/RO_0002234>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://purl.obolibrary.org/obo/RO_0002413>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
 <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_37563_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -430,7 +425,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -443,11 +438,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_37563_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_58190_ETHANOLAMINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -455,26 +450,26 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_37563_2.7.7.14-RXN>
+          <http://model.geneontology.org/CHEBI_58190_ETHANOLAMINE-KINASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_BFO_0000066_reaction_2.7.7.14-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_15378_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_2.7.7.14-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_15378_2.7.7.14-RXN>
 ] .
 
 <http://purl.org/dc/elements/1.1/source>
@@ -482,21 +477,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'ethanolamine + ATP &rarr; <i>O</i>-phosphoethanolamine + ADP + H<SUP>+</SUP>' 'null' '<i>O</i>-phosphoethanolamine + CTP + H<SUP>+</SUP> &rarr; CDP-ethanolamine + diphosphate' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINE-KINASE-RXN_RO_0002413_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_BFO_0000050_YeastPathways_PWY3O-259/YeastPathways_PWY3O-259_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ETHANOLAMINE-KINASE-RXN> ;
+          <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/2.7.7.14-RXN>
+          <http://model.geneontology.org/YeastPathways_PWY3O-259/YeastPathways_PWY3O-259>
 ] .
 
 <http://purl.obolibrary.org/obo/GO_0004307>
@@ -510,7 +505,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -521,19 +516,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002233_CHEBI_57876_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002234_CHEBI_15378_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57876_2.7.7.14-RXN>
+          <http://model.geneontology.org/CHEBI_15378_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -544,7 +539,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -553,25 +548,6 @@
           <http://model.geneontology.org/ETHANOLAMINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/CHEBI_30616_ETHANOLAMINE-KINASE-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" , "Provides Input For Rule. The relation '<i>O</i>-phosphoethanolamine + CTP + H<SUP>+</SUP> &rarr; CDP-ethanolamine + diphosphate' 'null' 'a 1,2-diacyl-<i>sn</i>-glycerol + CDP-ethanolamine &rarr; an L-1-phosphatidylethanolamine + CMP + H<SUP>+</SUP>' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002413_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2.7.7.14-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/RO_0002233>
@@ -584,7 +560,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -601,7 +577,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -614,7 +590,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -629,7 +605,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -642,7 +618,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -653,24 +629,21 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
-<http://purl.obolibrary.org/obo/ECO_0000363>
-        a       <http://www.w3.org/2002/07/owl#Class> .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_15378_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002233_CHEBI_37563_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -678,43 +651,32 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_2.7.7.14-RXN>
+          <http://model.geneontology.org/CHEBI_37563_2.7.7.14-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_30616>
         a       <http://www.w3.org/2002/07/owl#Class> .
-
-<http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002413_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-259" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_BFO_0000050_YeastPathways_PWY3O-259/YeastPathways_PWY3O-259_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_BFO_0000066_reaction_2.7.7.14-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PWY3O-259/YeastPathways_PWY3O-259>
+          <http://model.geneontology.org/reaction_2.7.7.14-RXN_location_lociGO_0005829>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -725,7 +687,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -751,7 +713,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/title>
                 "phospholipid biosynthesis II (Kennedy pathway) - imported from: Saccharomyces Genome Database" ;
         <http://purl.org/pav/providedBy>
@@ -763,11 +725,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002233_CHEBI_17815_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002233_CHEBI_57876_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -775,7 +737,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_17815_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
+          <http://model.geneontology.org/CHEBI_57876_2.7.7.14-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -786,7 +748,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -802,37 +764,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-259" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002333_YGR007W-MONOMER_2.7.7.14-RXN_controller_SGD_PWY_YeastPathways_PWY3O-259> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2.7.7.14-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YGR007W-MONOMER_2.7.7.14-RXN_controller>
-] .
-
-<http://model.geneontology.org/ev_w_id_ETHANOLAMINE-KINASE-RXN_RO_0002413_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -843,7 +775,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -854,7 +786,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -865,7 +797,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -883,7 +815,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -900,7 +832,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -915,19 +847,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002333_YHR123W-MONOMER_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_controller_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_BFO_0000050_YeastPathways_PWY3O-259/YeastPathways_PWY3O-259_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
+          <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YHR123W-MONOMER_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_controller>
+          <http://model.geneontology.org/YeastPathways_PWY3O-259/YeastPathways_PWY3O-259>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_60377>
@@ -944,7 +876,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -967,7 +899,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -984,7 +916,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1000,7 +932,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -1013,7 +945,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1026,7 +958,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -1041,7 +973,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1051,21 +983,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_BFO_0000066_reaction_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002233_CHEBI_17815_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_17815_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -1076,7 +1008,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1091,19 +1023,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002234_CHEBI_57876_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002333_YGR007W-MONOMER_2.7.7.14-RXN_controller_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57876_2.7.7.14-RXN>
+          <http://model.geneontology.org/YGR007W-MONOMER_2.7.7.14-RXN_controller>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_456216>
@@ -1125,7 +1057,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1144,7 +1076,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -1158,7 +1090,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -1168,19 +1100,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002234_CHEBI_60377_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_RO_0002333_YHR123W-MONOMER_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_controller_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_60377_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN>
+          <http://model.geneontology.org/YHR123W-MONOMER_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_controller>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_16038>
@@ -1194,7 +1126,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1219,12 +1151,10 @@
                 <http://model.geneontology.org/CHEBI_456216_ETHANOLAMINE-KINASE-RXN> , <http://model.geneontology.org/CHEBI_15378_ETHANOLAMINE-KINASE-RXN> , <http://model.geneontology.org/CHEBI_58190_ETHANOLAMINE-KINASE-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YDR147W-MONOMER_ETHANOLAMINE-KINASE-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/2.7.7.14-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1237,7 +1167,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -1251,7 +1181,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-259" ;
         <http://purl.org/pav/providedBy>
@@ -1259,21 +1189,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_BFO_0000050_YeastPathways_PWY3O-259/YeastPathways_PWY3O-259_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_BFO_0000066_reaction_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ETHANOLAMINEPHOSPHOTRANSFERASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PWY3O-259/YeastPathways_PWY3O-259>
+          <http://model.geneontology.org/reaction_ETHANOLAMINEPHOSPHOTRANSFERASE-RXN_location_lociGO_0005829>
 ] .
 
 <http://purl.org/dc/elements/1.1/title>
@@ -1283,11 +1213,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-259" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002234_CHEBI_29888_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
+          <http://model.geneontology.org/ev_w_id_2.7.7.14-RXN_RO_0002234_CHEBI_57876_2.7.7.14-RXN_SGD_PWY_YeastPathways_PWY3O-259> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1295,5 +1225,5 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/2.7.7.14-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_29888_2.7.7.14-RXN>
+          <http://model.geneontology.org/CHEBI_57876_2.7.7.14-RXN>
 ] .

@@ -7,7 +7,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
@@ -20,7 +20,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -33,7 +33,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -46,7 +46,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -61,7 +61,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -69,35 +69,35 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002233_CHEBI_57834_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57834_SPERMIDINESYN-RXN>
-] .
-
 <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002233_CHEBI_15378_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002333_YLR146C-MONOMER_SPERMINE-SYNTHASE-RXN_controller_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/YLR146C-MONOMER_SPERMINE-SYNTHASE-RXN_controller>
+] .
 
 <http://identifiers.org/sgd/S000005412>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -106,19 +106,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002333_YOL052C-MONOMER_SAMDECARB-RXN_controller_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_BFO_0000050_YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SAMDECARB-RXN> ;
+          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YOL052C-MONOMER_SAMDECARB-RXN_controller>
+          <http://model.geneontology.org/YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY>
 ] .
 
 <http://model.geneontology.org/YPR069C-MONOMER_SPERMIDINESYN-RXN_controller>
@@ -128,7 +128,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -144,7 +144,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -160,21 +160,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_BFO_0000066_reaction_SPERMINE-SYNTHASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002234_CHEBI_17509_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_SPERMINE-SYNTHASE-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_17509_SPERMINE-SYNTHASE-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002333_YPR069C-MONOMER_SPERMIDINESYN-RXN_controller_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
@@ -182,7 +182,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -196,7 +196,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -207,7 +207,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -225,7 +225,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -238,7 +238,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -253,32 +253,13 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=POLYAMSYN-YEAST-PWYSmallMolecule27685> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002234_CHEBI_15378_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_SPERMIDINESYN-RXN>
-] .
 
 <http://purl.obolibrary.org/obo/CHEBI_57443>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -287,19 +268,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002411_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002333_YPR069C-MONOMER_SPERMIDINESYN-RXN_controller_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002411> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
+          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN>
+          <http://model.geneontology.org/YPR069C-MONOMER_SPERMIDINESYN-RXN_controller>
 ] .
 
 <http://www.w3.org/2004/02/skos/core#note>
@@ -310,7 +291,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -324,7 +305,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -338,7 +319,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -351,7 +332,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -364,7 +345,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -374,19 +355,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002234_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002333_YOL052C-MONOMER_SAMDECARB-RXN_controller_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SAMDECARB-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57443_SAMDECARB-RXN>
+          <http://model.geneontology.org/YOL052C-MONOMER_SAMDECARB-RXN_controller>
 ] .
 
 <http://model.geneontology.org/CHEBI_17509_SPERMINE-SYNTHASE-RXN>
@@ -398,7 +379,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -411,7 +392,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -425,7 +406,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -435,17 +416,6 @@
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/CHEBI_46911_ORNDECARBOX-RXN>
 ] .
-
-<http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002413_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN>
         a       <http://purl.obolibrary.org/obo/GO_0016768> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -466,7 +436,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -478,19 +448,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_BFO_0000050_YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002234_CHEBI_15378_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY>
+          <http://model.geneontology.org/CHEBI_15378_SPERMINE-SYNTHASE-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_57834>
@@ -504,7 +474,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -513,9 +483,6 @@
 <http://identifiers.org/sgd/S000001667>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://purl.obolibrary.org/obo/RO_0002413>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
 <http://purl.obolibrary.org/obo/BFO_0000050>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
@@ -523,19 +490,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002233_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002234_CHEBI_57834_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57443_SAMDECARB-RXN>
+          <http://model.geneontology.org/CHEBI_57834_SPERMIDINESYN-RXN>
 ] .
 
 <http://model.geneontology.org/reaction_ORNDECARBOX-RXN_location_lociGO_0005829>
@@ -543,7 +510,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -552,30 +519,11 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002333_YLR146C-MONOMER_SPERMINE-SYNTHASE-RXN_controller_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YLR146C-MONOMER_SPERMINE-SYNTHASE-RXN_controller>
-] .
 
 <http://model.geneontology.org/YeastPathways_POLYAMSYN-YEAST-PWY>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -586,7 +534,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/title>
                 "superpathway of polyamine biosynthesis - imported from: Saccharomyces Genome Database" ;
         <http://purl.org/pav/providedBy>
@@ -599,7 +547,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -607,21 +555,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_BFO_0000066_reaction_SPERMIDINESYN-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002234_CHEBI_15378_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_SPERMIDINESYN-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_15378_SPERMIDINESYN-RXN>
 ] .
 
 <http://purl.org/dc/elements/1.1/source>
@@ -629,21 +577,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_BFO_0000050_YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_BFO_0000066_reaction_SAMDECARB-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SAMDECARB-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY>
+          <http://model.geneontology.org/reaction_SAMDECARB-RXN_location_lociGO_0005829>
 ] .
 
 <http://purl.obolibrary.org/obo/RO_0002333>
@@ -653,11 +601,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002234_CHEBI_16526_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002234_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -665,7 +613,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SAMDECARB-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16526_SAMDECARB-RXN>
+          <http://model.geneontology.org/CHEBI_57443_SAMDECARB-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -676,7 +624,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -696,7 +644,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -709,7 +657,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -722,7 +670,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -732,21 +680,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" , "Provides Input For Rule. The relation 'putrescine + <i>S</i>-adenosyl 3-(methylsulfanyl)propylamine &rarr; spermidine + <i>S</i>-methyl-5'-thioadenosine + H<SUP>+</SUP>' 'null' 'spermidine + <i>S</i>-adenosyl 3-(methylsulfanyl)propylamine &rarr; spermine + <i>S</i>-methyl-5'-thioadenosine + H<SUP>+</SUP>' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002413_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002233_CHEBI_57834_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
+          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN>
+          <http://model.geneontology.org/CHEBI_57834_SPERMIDINESYN-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/GO_0006596>
@@ -760,21 +708,18 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-<http://purl.obolibrary.org/obo/ECO_0000363>
-        a       <http://www.w3.org/2002/07/owl#Class> .
 
 <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002233_CHEBI_326268_ORNDECARBOX-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -784,19 +729,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002233_CHEBI_326268_ORNDECARBOX-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002234_CHEBI_17509_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_326268_ORNDECARBOX-RXN>
+          <http://model.geneontology.org/CHEBI_17509_SPERMIDINESYN-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_BFO_0000050_YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
@@ -804,30 +749,11 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002234_CHEBI_45725_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_45725_SPERMINE-SYNTHASE-RXN>
-] .
 
 <http://purl.obolibrary.org/obo/CHEBI_16526>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -849,12 +775,10 @@
                 <http://model.geneontology.org/CHEBI_16526_ORNDECARBOX-RXN> , <http://model.geneontology.org/CHEBI_326268_ORNDECARBOX-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YKL184W-MONOMER_ORNDECARBOX-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -866,38 +790,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_BFO_0000050_YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002233_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_57443_SAMDECARB-RXN>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_BFO_0000050_YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
+          <http://model.geneontology.org/SAMDECARB-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" , "Provides Input For Rule. The relation 'L-ornithine + H<SUP>+</SUP> &rarr; CO<SUB>2</SUB> + putrescine' 'null' 'putrescine + <i>S</i>-adenosyl 3-(methylsulfanyl)propylamine &rarr; spermidine + <i>S</i>-methyl-5'-thioadenosine + H<SUP>+</SUP>' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ORNDECARBOX-RXN_RO_0002413_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ORNDECARBOX-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/GO_0004014>
@@ -908,7 +832,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -919,7 +843,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -930,7 +854,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -940,19 +864,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002233_CHEBI_59789_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002234_CHEBI_16526_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SAMDECARB-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_59789_SAMDECARB-RXN>
+          <http://model.geneontology.org/CHEBI_16526_SAMDECARB-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -963,7 +887,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -978,19 +902,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002333_YPR069C-MONOMER_SPERMIDINESYN-RXN_controller_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002233_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
+          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YPR069C-MONOMER_SPERMIDINESYN-RXN_controller>
+          <http://model.geneontology.org/CHEBI_57443_SAMDECARB-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ORNDECARBOX-RXN_RO_0002234_CHEBI_326268_ORNDECARBOX-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
@@ -998,7 +922,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1013,7 +937,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1029,7 +953,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1038,49 +962,30 @@
 <http://identifiers.org/sgd/S000004136>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://geneontology.org/lego/evidence>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
 <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002234_CHEBI_15378_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
+
+<http://geneontology.org/lego/evidence>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002233_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002234_CHEBI_17509_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_17509_SPERMINE-SYNTHASE-RXN>
-] .
 
 <http://purl.obolibrary.org/obo/GO_0004766>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -1097,7 +1002,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1113,21 +1018,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation '<i>S</i>-adenosyl-L-methionine + H<SUP>+</SUP> &rarr; CO<SUB>2</SUB> + <i>S</i>-adenosyl 3-(methylsulfanyl)propylamine' 'null' 'spermidine + <i>S</i>-adenosyl 3-(methylsulfanyl)propylamine &rarr; spermine + <i>S</i>-methyl-5'-thioadenosine + H<SUP>+</SUP>' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002413_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002233_CHEBI_326268_ORNDECARBOX-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SAMDECARB-RXN> ;
+          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN>
+          <http://model.geneontology.org/CHEBI_326268_ORNDECARBOX-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ORNDECARBOX-RXN_RO_0002234_CHEBI_16526_ORNDECARBOX-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
@@ -1135,7 +1040,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1148,7 +1053,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1164,7 +1069,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1181,34 +1086,12 @@
 <http://purl.obolibrary.org/obo/ECO_0000313>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002413_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/ev_w_id_ORNDECARBOX-RXN_RO_0002413_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000363> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/reaction_SPERMINE-SYNTHASE-RXN_location_lociGO_0005829>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005829> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -1221,7 +1104,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1233,11 +1116,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002233_CHEBI_15378_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002233_CHEBI_59789_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1245,7 +1128,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SAMDECARB-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_SAMDECARB-RXN>
+          <http://model.geneontology.org/CHEBI_59789_SAMDECARB-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -1256,7 +1139,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1272,21 +1155,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002234_CHEBI_57834_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_BFO_0000066_reaction_SPERMINE-SYNTHASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
+          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57834_SPERMIDINESYN-RXN>
+          <http://model.geneontology.org/reaction_SPERMINE-SYNTHASE-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/CHEBI_16526_SAMDECARB-RXN>
@@ -1298,7 +1181,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1323,12 +1206,10 @@
                 <http://model.geneontology.org/CHEBI_16526_SAMDECARB-RXN> , <http://model.geneontology.org/CHEBI_57443_SAMDECARB-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YOL052C-MONOMER_SAMDECARB-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/SPERMIDINESYN-RXN> , <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1351,7 +1232,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1364,7 +1245,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1387,12 +1268,10 @@
                 <http://model.geneontology.org/CHEBI_17509_SPERMIDINESYN-RXN> , <http://model.geneontology.org/CHEBI_15378_SPERMIDINESYN-RXN> , <http://model.geneontology.org/CHEBI_57834_SPERMIDINESYN-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YPR069C-MONOMER_SPERMIDINESYN-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1404,19 +1283,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002234_CHEBI_15378_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002411_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002411> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_SPERMINE-SYNTHASE-RXN>
+          <http://model.geneontology.org/SPERMIDINESYN-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002233_CHEBI_59789_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
@@ -1424,18 +1303,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002413_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1450,7 +1318,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1463,21 +1331,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation '<i>S</i>-adenosyl-L-methionine + H<SUP>+</SUP> &rarr; CO<SUB>2</SUB> + <i>S</i>-adenosyl 3-(methylsulfanyl)propylamine' 'null' 'putrescine + <i>S</i>-adenosyl 3-(methylsulfanyl)propylamine &rarr; spermidine + <i>S</i>-methyl-5'-thioadenosine + H<SUP>+</SUP>' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002413_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_BFO_0000066_reaction_SPERMIDINESYN-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SAMDECARB-RXN> ;
+          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN>
+          <http://model.geneontology.org/reaction_SPERMIDINESYN-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/CHEBI_46911_ORNDECARBOX-RXN>
@@ -1489,7 +1357,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1502,7 +1370,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -1514,7 +1382,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1529,19 +1397,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002233_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_RO_0002234_CHEBI_45725_SPERMINE-SYNTHASE-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57443_SAMDECARB-RXN>
+          <http://model.geneontology.org/CHEBI_45725_SPERMINE-SYNTHASE-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_59789>
@@ -1552,7 +1420,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1560,21 +1428,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_BFO_0000066_reaction_SAMDECARB-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002233_CHEBI_15378_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/SAMDECARB-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_SAMDECARB-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_15378_SAMDECARB-RXN>
 ] .
 
 <http://purl.org/dc/elements/1.1/title>
@@ -1584,19 +1452,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=POLYAMSYN-YEAST-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_SPERMIDINESYN-RXN_RO_0002234_CHEBI_17509_SPERMIDINESYN-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
+          <http://model.geneontology.org/ev_w_id_SPERMINE-SYNTHASE-RXN_BFO_0000050_YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/SPERMIDINESYN-RXN> ;
+          <http://model.geneontology.org/SPERMINE-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_17509_SPERMIDINESYN-RXN>
+          <http://model.geneontology.org/YeastPathways_POLYAMSYN-YEAST-PWY/YeastPathways_POLYAMSYN-YEAST-PWY>
 ] .
 
 <http://model.geneontology.org/ev_w_id_SAMDECARB-RXN_RO_0002234_CHEBI_57443_SAMDECARB-RXN_SGD_PWY_YeastPathways_POLYAMSYN-YEAST-PWY>
@@ -1604,7 +1472,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1619,7 +1487,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1632,7 +1500,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:POLYAMSYN-YEAST-PWY" ;
         <http://purl.org/pav/providedBy>
