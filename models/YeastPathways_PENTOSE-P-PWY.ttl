@@ -2,38 +2,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2TRANSKETO-RXN> ;
+          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002234_CHEBI_57783_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_BFO_0000066_reaction_TRANSALDOL-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-9952> ;
+          <http://model.geneontology.org/TRANSALDOL-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57783_RXN-9952>
+          <http://model.geneontology.org/reaction_TRANSALDOL-RXN_location_lociGO_0005829>
 ] .
 
 <http://identifiers.org/sgd/S000001206>
@@ -48,7 +48,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -61,7 +61,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -75,7 +75,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -91,7 +91,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -107,7 +107,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -129,12 +129,10 @@
                 <http://model.geneontology.org/CHEBI_78346_RIB5PISOM-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YOR095C-MONOMER_RIB5PISOM-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/1TRANSKETO-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -145,31 +143,12 @@
 <http://www.w3.org/2004/02/skos/core#note>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_BFO_0000066_reaction_6PGLUCONOLACT-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_6PGLUCONOLACT-RXN_location_lociGO_0005829>
-] .
-
 <http://model.geneontology.org/reaction_TRANSALDOL-RXN_location_lociGO_0005829>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005829> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -177,52 +156,41 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002234_CHEBI_16897_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002233_CHEBI_57737_RIBULP3EPIM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/TRANSALDOL-RXN> ;
+          <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16897_TRANSALDOL-RXN>
+          <http://model.geneontology.org/CHEBI_57737_RIBULP3EPIM-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_4170>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002413_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002333_YOR095C-MONOMER_RIB5PISOM-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RIB5PISOM-RXN> ;
+          <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YOR095C-MONOMER_RIB5PISOM-RXN_controller>
+          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
 ] .
 
 <http://purl.obolibrary.org/obo/ECO_0000313>
@@ -238,7 +206,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -256,38 +224,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002234_CHEBI_57483_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002233_CHEBI_16897_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/1TRANSKETO-RXN> ;
+          <http://model.geneontology.org/2TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57483_1TRANSKETO-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-9952> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
+          <http://model.geneontology.org/CHEBI_16897_TRANSALDOL-RXN>
 ] .
 
 <http://model.geneontology.org/TRANSALDOL-RXN>
@@ -304,12 +253,10 @@
                 <http://model.geneontology.org/CHEBI_57634_TRANSALDOL-RXN> , <http://model.geneontology.org/CHEBI_16897_TRANSALDOL-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YLR354C-MONOMER_TRANSALDOL-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/2TRANSKETO-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -317,8 +264,24 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.BiochemicalReaction" .
 
-<http://purl.obolibrary.org/obo/ECO_0000363>
-        a       <http://www.w3.org/2002/07/owl#Class> .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002233_CHEBI_58759_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/RXN-9952> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_58759_6PGLUCONOLACT-RXN>
+] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -328,7 +291,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -348,7 +311,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -361,7 +324,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -381,12 +344,10 @@
                 <http://model.geneontology.org/CHEBI_57783_GLU6PDEHYDROG-RXN> , <http://model.geneontology.org/CHEBI_57955_GLU6PDEHYDROG-RXN> , <http://model.geneontology.org/CHEBI_15378_GLU6PDEHYDROG-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YNL241C-MONOMER_GLU6PDEHYDROG-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -403,7 +364,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -426,12 +387,10 @@
                 <http://model.geneontology.org/CHEBI_58349_RXN-9952> , <http://model.geneontology.org/CHEBI_58759_6PGLUCONOLACT-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002234>
                 <http://model.geneontology.org/CHEBI_57783_RXN-9952> , <http://model.geneontology.org/CHEBI_58121_RXN-9952> , <http://model.geneontology.org/CHEBI_16526_RXN-9952> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/RIBULP3EPIM-RXN> , <http://model.geneontology.org/RIB5PISOM-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -443,38 +402,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002233_CHEBI_57737_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002233_CHEBI_57955_GLU6PDEHYDROG-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2TRANSKETO-RXN> ;
+          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57737_2TRANSKETO-RXN>
+          <http://model.geneontology.org/CHEBI_57955_GLU6PDEHYDROG-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Provides Input For Rule. The relation 'D-gluconate 6-phosphate + NADP<sup>+</sup> &rarr; D-ribulose 5-phosphate + CO<SUB>2</SUB> + NADPH' 'null' 'D-ribulose 5-phosphate &harr; D-xylulose 5-phosphate' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002413_RIBULP3EPIM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002234_CHEBI_16897_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-9952> ;
+          <http://model.geneontology.org/TRANSALDOL-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/RIBULP3EPIM-RXN>
+          <http://model.geneontology.org/CHEBI_16897_TRANSALDOL-RXN>
 ] .
 
 <http://model.geneontology.org/MONOMER3O-4047_6PGLUCONOLACT-RXN_controller>
@@ -484,7 +443,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -499,7 +458,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -512,7 +471,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -523,7 +482,18 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PENTOSE-P-PWY" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002233_CHEBI_57483_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -532,42 +502,12 @@
 <http://purl.obolibrary.org/obo/GO_0004750>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002233_CHEBI_57483_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002234_CHEBI_15378_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_6PGLUCONOLACT-RXN>
-] .
-
 <http://model.geneontology.org/ev_w_id_RXN-9952_BFO_0000066_reaction_RXN-9952_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -578,7 +518,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -586,54 +526,54 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Provides Input For Rule. The relation 'D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate &harr; &beta;-D-fructofuranose 6-phosphate + D-erythrose 4-phosphate' 'null' 'D-erythrose 4-phosphate + D-xylulose 5-phosphate &harr; &beta;-D-fructofuranose 6-phosphate + D-glyceraldehyde 3-phosphate' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002413_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002234_CHEBI_59776_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/TRANSALDOL-RXN> ;
+          <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/2TRANSKETO-RXN>
+          <http://model.geneontology.org/CHEBI_59776_1TRANSKETO-RXN>
 ] .
 
 <http://geneontology.org/lego/modelstate>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-<http://purl.obolibrary.org/obo/RO_0002234>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_BFO_0000066_reaction_RIBULP3EPIM-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002234_CHEBI_57737_RIBULP3EPIM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_RIBULP3EPIM-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_57737_RIBULP3EPIM-RXN>
 ] .
+
+<http://purl.obolibrary.org/obo/RO_0002234>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002234_CHEBI_57737_RIBULP3EPIM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -647,7 +587,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -664,7 +604,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -682,7 +622,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -702,7 +642,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
@@ -714,19 +654,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002333_YPR074C-MONOMER_1TRANSKETO-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002234_CHEBI_59776_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/1TRANSKETO-RXN> ;
+          <http://model.geneontology.org/2TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YPR074C-MONOMER_1TRANSKETO-RXN_controller>
+          <http://model.geneontology.org/CHEBI_59776_2TRANSKETO-RXN>
 ] .
 
 <http://model.geneontology.org/YPR074C-MONOMER_2TRANSKETO-RXN_controller>
@@ -736,7 +676,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -749,7 +689,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -759,23 +699,20 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002233_CHEBI_58759_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002234_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RXN-9952> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58759_6PGLUCONOLACT-RXN>
+          <http://model.geneontology.org/CHEBI_58121_RXN-9952>
 ] .
-
-<http://purl.obolibrary.org/obo/RO_0002413>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 <http://model.geneontology.org/CHEBI_58349_GLU6PDEHYDROG-RXN>
         a       <http://purl.obolibrary.org/obo/CHEBI_58349> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -786,7 +723,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -802,7 +739,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -818,7 +755,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -827,23 +764,23 @@
 <http://purl.obolibrary.org/obo/CHEBI_57955>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002234_CHEBI_57634_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002233_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PENTOSE-P-PWY" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002234_CHEBI_57634_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -853,19 +790,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002333_YPR074C-MONOMER_2TRANSKETO-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002333_MONOMER3O-4032_6PGLUCONOLACT-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2TRANSKETO-RXN> ;
+          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YPR074C-MONOMER_2TRANSKETO-RXN_controller>
+          <http://model.geneontology.org/MONOMER3O-4032_6PGLUCONOLACT-RXN_controller>
 ] .
 
 <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
@@ -876,7 +813,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -886,49 +823,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002233_CHEBI_57483_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/TRANSALDOL-RXN> ;
+          <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57483_1TRANSKETO-RXN>
+          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
 ] .
 
-<http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002413_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002233_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002234_CHEBI_78346_RIB5PISOM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RIB5PISOM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58121_RXN-9952>
+          <http://model.geneontology.org/CHEBI_78346_RIB5PISOM-RXN>
 ] .
 
 <http://model.geneontology.org/reaction_1TRANSKETO-RXN_location_lociGO_0005829>
@@ -936,7 +862,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -945,7 +871,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -960,22 +886,13 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PENTOSE-P-PWYSmallMolecule34927> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://model.geneontology.org/reaction_RIB5PISOM-RXN_location_lociGO_0005829>
-        a       <http://purl.obolibrary.org/obo/GO_0005829> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/CHEBI_57634_TRANSALDOL-RXN>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_57634> ;
@@ -986,13 +903,22 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PENTOSE-P-PWYSmallMolecule35145> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
+
+<http://model.geneontology.org/reaction_RIB5PISOM-RXN_location_lociGO_0005829>
+        a       <http://purl.obolibrary.org/obo/GO_0005829> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-09-14" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/YJL121C-MONOMER_RIBULP3EPIM-RXN_controller>
         a       <http://identifiers.org/sgd/S000003657> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -1001,7 +927,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1014,7 +940,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1025,7 +951,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1036,7 +962,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1047,11 +973,14 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
+
+<http://purl.obolibrary.org/obo/GO_0005829>
+        a       <http://www.w3.org/2002/07/owl#Class> .
 
 <http://model.geneontology.org/CHEBI_15377_6PGLUCONOLACT-RXN>
         a       <http://purl.obolibrary.org/obo/CHEBI_15377> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -1062,7 +991,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1070,64 +999,42 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
-<http://purl.obolibrary.org/obo/GO_0005829>
-        a       <http://www.w3.org/2002/07/owl#Class> .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002333_MONOMER3O-4047_6PGLUCONOLACT-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
+          <http://model.geneontology.org/2TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/MONOMER3O-4047_6PGLUCONOLACT-RXN_controller>
+          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002233_CHEBI_57737_RIBULP3EPIM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RXN-9952_BFO_0000066_reaction_RXN-9952_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/1TRANSKETO-RXN> ;
+          <http://model.geneontology.org/RXN-9952> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57737_RIBULP3EPIM-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002333_YJL121C-MONOMER_RIBULP3EPIM-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YJL121C-MONOMER_RIBULP3EPIM-RXN_controller>
+          <http://model.geneontology.org/reaction_RXN-9952_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002233_CHEBI_58759_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -1135,7 +1042,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1146,7 +1053,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1164,7 +1071,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1180,7 +1087,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1191,7 +1098,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -1202,38 +1109,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_BFO_0000066_reaction_2TRANSKETO-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_BFO_0000066_reaction_6PGLUCONOLACT-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2TRANSKETO-RXN> ;
+          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_2TRANSKETO-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/reaction_6PGLUCONOLACT-RXN_location_lociGO_0005829>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002234_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002233_CHEBI_57483_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-9952> ;
+          <http://model.geneontology.org/TRANSALDOL-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58121_RXN-9952>
+          <http://model.geneontology.org/CHEBI_57483_1TRANSKETO-RXN>
 ] .
 
 <http://model.geneontology.org/reaction_GLU6PDEHYDROG-RXN_location_lociGO_0005829>
@@ -1241,7 +1148,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -1250,7 +1157,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1265,7 +1172,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1281,7 +1188,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1304,7 +1211,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1322,7 +1229,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1338,7 +1245,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1348,38 +1255,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002233_CHEBI_15377_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002233_CHEBI_78346_RIB5PISOM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
+          <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15377_6PGLUCONOLACT-RXN>
+          <http://model.geneontology.org/CHEBI_78346_RIB5PISOM-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002234_CHEBI_57634_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_BFO_0000066_reaction_RIBULP3EPIM-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/TRANSALDOL-RXN> ;
+          <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57634_TRANSALDOL-RXN>
+          <http://model.geneontology.org/reaction_RIBULP3EPIM-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/ev_w_id_GLU6PDEHYDROG-RXN_RO_0002233_CHEBI_58349_GLU6PDEHYDROG-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -1387,30 +1294,11 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'D-ribose 5-phosphate &harr; D-ribulose 5-phosphate' 'null' 'D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate &harr; D-ribose 5-phosphate + D-xylulose 5-phosphate' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002413_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RIB5PISOM-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/1TRANSKETO-RXN>
-] .
 
 <http://purl.obolibrary.org/obo/CHEBI_16897>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -1429,14 +1317,11 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-<http://purl.org/dc/elements/1.1/source>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 <http://model.geneontology.org/CHEBI_57955_GLU6PDEHYDROG-RXN>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_57955> ;
@@ -1447,7 +1332,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1455,61 +1340,53 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
+<http://purl.org/dc/elements/1.1/source>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002234_CHEBI_59776_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002233_CHEBI_57737_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/2TRANSKETO-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_57737_2TRANSKETO-RXN>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002234_CHEBI_16526_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/1TRANSKETO-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_59776_1TRANSKETO-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_BFO_0000066_reaction_RXN-9952_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RXN-9952> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_RXN-9952_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_16526_RXN-9952>
 ] .
-
-<http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002413_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002233_CHEBI_16897_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1523,7 +1400,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1539,7 +1416,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1550,7 +1427,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1561,7 +1438,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1572,7 +1449,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1595,12 +1472,10 @@
                 <http://model.geneontology.org/CHEBI_58759_6PGLUCONOLACT-RXN> , <http://model.geneontology.org/CHEBI_15378_6PGLUCONOLACT-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/MONOMER3O-4032_6PGLUCONOLACT-RXN_controller> , <http://model.geneontology.org/MONOMER3O-4047_6PGLUCONOLACT-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/RXN-9952> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1613,7 +1488,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1628,7 +1503,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1640,19 +1515,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002234_CHEBI_57634_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002234_CHEBI_15378_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2TRANSKETO-RXN> ;
+          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57634_2TRANSKETO-RXN>
+          <http://model.geneontology.org/CHEBI_15378_6PGLUCONOLACT-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002234_CHEBI_57634_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -1660,7 +1535,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1673,19 +1548,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002234_CHEBI_57634_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/TRANSALDOL-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
+          <http://model.geneontology.org/CHEBI_57634_TRANSALDOL-RXN>
 ] .
 
 <http://identifiers.org/sgd/S000003480>
@@ -1693,21 +1568,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_BFO_0000066_reaction_RIB5PISOM-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RIB5PISOM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
+          <http://model.geneontology.org/reaction_RIB5PISOM-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002234_CHEBI_16897_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -1715,7 +1590,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1726,7 +1601,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1739,38 +1614,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002234_CHEBI_58759_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002333_YBR117C-MONOMER_1TRANSKETO-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58759_6PGLUCONOLACT-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
+          <http://model.geneontology.org/YBR117C-MONOMER_1TRANSKETO-RXN_controller>
 ] .
 
 <http://purl.obolibrary.org/obo/GO_0004751>
@@ -1780,19 +1636,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002233_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002333_YJL121C-MONOMER_RIBULP3EPIM-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58121_RXN-9952>
+          <http://model.geneontology.org/YJL121C-MONOMER_RIBULP3EPIM-RXN_controller>
 ] .
 
 <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002234_CHEBI_78346_RIB5PISOM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -1800,7 +1656,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1811,7 +1667,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1822,37 +1678,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate &harr; D-ribose 5-phosphate + D-xylulose 5-phosphate' 'null' 'D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate &harr; &beta;-D-fructofuranose 6-phosphate + D-erythrose 4-phosphate' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002413_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/1TRANSKETO-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/TRANSALDOL-RXN>
-] .
-
-<http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002413_RIB5PISOM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1862,31 +1688,39 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002234_CHEBI_16526_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002333_YPR074C-MONOMER_2TRANSKETO-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-9952> ;
+          <http://model.geneontology.org/2TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16526_RXN-9952>
+          <http://model.geneontology.org/YPR074C-MONOMER_2TRANSKETO-RXN_controller>
 ] .
 
-<http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002413_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/TRANSALDOL-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
+] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1896,7 +1730,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1915,7 +1749,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1930,7 +1764,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1952,12 +1786,10 @@
                 <http://model.geneontology.org/CHEBI_57483_1TRANSKETO-RXN> , <http://model.geneontology.org/CHEBI_59776_1TRANSKETO-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YPR074C-MONOMER_1TRANSKETO-RXN_controller> , <http://model.geneontology.org/YBR117C-MONOMER_1TRANSKETO-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/TRANSALDOL-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1970,7 +1802,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -1980,57 +1812,57 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002333_MONOMER3O-4047_6PGLUCONOLACT-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
+          <http://model.geneontology.org/MONOMER3O-4047_6PGLUCONOLACT-RXN_controller>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002233_CHEBI_59776_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_BFO_0000066_reaction_1TRANSKETO-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/TRANSALDOL-RXN> ;
+          <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_59776_1TRANSKETO-RXN>
+          <http://model.geneontology.org/reaction_1TRANSKETO-RXN_location_lociGO_0005829>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002234_CHEBI_78346_RIB5PISOM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002333_YOR095C-MONOMER_RIB5PISOM-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RIB5PISOM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_78346_RIB5PISOM-RXN>
+          <http://model.geneontology.org/YOR095C-MONOMER_RIB5PISOM-RXN_controller>
 ] .
 
 <http://model.geneontology.org/CHEBI_57483_1TRANSKETO-RXN>
@@ -2042,7 +1874,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2058,7 +1890,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2073,7 +1905,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2092,7 +1924,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2103,7 +1935,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2111,59 +1943,40 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Provides Input For Rule. The relation '6-phospho D-glucono-1,5-lactone + H<sub>2</sub>O &rarr; D-gluconate 6-phosphate + H<SUP>+</SUP>' 'null' 'D-gluconate 6-phosphate + NADP<sup>+</sup> &rarr; D-ribulose 5-phosphate + CO<SUB>2</SUB> + NADPH' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002413_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_BFO_0000066_reaction_2TRANSKETO-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
+          <http://model.geneontology.org/2TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/RXN-9952>
+          <http://model.geneontology.org/reaction_2TRANSKETO-RXN_location_lociGO_0005829>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002233_CHEBI_78346_RIB5PISOM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002233_CHEBI_58349_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/1TRANSKETO-RXN> ;
+          <http://model.geneontology.org/RXN-9952> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_78346_RIB5PISOM-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'D-ribulose 5-phosphate &harr; D-xylulose 5-phosphate' 'null' 'D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate &harr; D-ribose 5-phosphate + D-xylulose 5-phosphate' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002413_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/1TRANSKETO-RXN>
+          <http://model.geneontology.org/CHEBI_58349_RXN-9952>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -2174,7 +1987,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -2190,7 +2003,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -2211,7 +2024,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2223,19 +2036,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002233_CHEBI_16897_TRANSALDOL-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002233_CHEBI_15377_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2TRANSKETO-RXN> ;
+          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16897_TRANSALDOL-RXN>
+          <http://model.geneontology.org/CHEBI_15377_6PGLUCONOLACT-RXN>
 ] .
 
 <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY>
@@ -2247,7 +2060,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/title>
                 "pentose phosphate pathway - imported from: Saccharomyces Genome Database" ;
         <http://purl.org/pav/providedBy>
@@ -2257,52 +2070,41 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Provides Input For Rule. The relation 'D-gluconate 6-phosphate + NADP<sup>+</sup> &rarr; D-ribulose 5-phosphate + CO<SUB>2</SUB> + NADPH' 'null' 'D-ribose 5-phosphate &harr; D-ribulose 5-phosphate' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002413_RIB5PISOM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002233_CHEBI_59776_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-9952> ;
+          <http://model.geneontology.org/TRANSALDOL-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/RIB5PISOM-RXN>
+          <http://model.geneontology.org/CHEBI_59776_1TRANSKETO-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'D-glucopyranose 6-phosphate + NADP<sup>+</sup> &rarr; 6-phospho D-glucono-1,5-lactone + NADPH + H<SUP>+</SUP>' 'null' '6-phospho D-glucono-1,5-lactone + H<sub>2</sub>O &rarr; D-gluconate 6-phosphate + H<SUP>+</SUP>' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_GLU6PDEHYDROG-RXN_RO_0002413_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/GLU6PDEHYDROG-RXN> ;
+          <http://model.geneontology.org/RIB5PISOM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN>
+          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
 ] .
-
-<http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002413_RIBULP3EPIM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/YLR354C-MONOMER_TRANSALDOL-RXN_controller>
         a       <http://identifiers.org/sgd/S000004346> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -2311,7 +2113,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2328,7 +2130,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2341,30 +2143,11 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002233_CHEBI_57955_GLU6PDEHYDROG-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57955_GLU6PDEHYDROG-RXN>
-] .
 
 <http://purl.obolibrary.org/obo/CHEBI_58121>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -2373,19 +2156,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002333_YLR354C-MONOMER_TRANSALDOL-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002234_CHEBI_57483_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/TRANSALDOL-RXN> ;
+          <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YLR354C-MONOMER_TRANSALDOL-RXN_controller>
+          <http://model.geneontology.org/CHEBI_57483_1TRANSKETO-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002233_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -2393,7 +2176,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2406,19 +2189,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002233_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
+          <http://model.geneontology.org/CHEBI_58121_RXN-9952>
 ] .
 
 <http://purl.obolibrary.org/obo/RO_0002233>
@@ -2435,7 +2218,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2443,17 +2226,6 @@
 
 <http://purl.org/dc/elements/1.1/title>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://model.geneontology.org/ev_w_id_GLU6PDEHYDROG-RXN_RO_0002413_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://purl.obolibrary.org/obo/RO_0002333>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -2463,7 +2235,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2474,7 +2246,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -2492,12 +2264,10 @@
                 <http://model.geneontology.org/CHEBI_57737_RIBULP3EPIM-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YJL121C-MONOMER_RIBULP3EPIM-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/1TRANSKETO-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2509,38 +2279,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002333_YBR117C-MONOMER_1TRANSKETO-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002234_CHEBI_57634_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/1TRANSKETO-RXN> ;
+          <http://model.geneontology.org/2TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YBR117C-MONOMER_1TRANSKETO-RXN_controller>
+          <http://model.geneontology.org/CHEBI_57634_2TRANSKETO-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002233_CHEBI_58349_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RXN-9952_RO_0002234_CHEBI_57783_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RXN-9952> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58349_RXN-9952>
+          <http://model.geneontology.org/CHEBI_57783_RXN-9952>
 ] .
 
 <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002234_CHEBI_59776_1TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -2548,7 +2318,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2562,7 +2332,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -2576,6 +2346,25 @@
 <http://purl.obolibrary.org/obo/CHEBI_57783>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002234_CHEBI_58759_6PGLUCONOLACT-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_58759_6PGLUCONOLACT-RXN>
+] .
+
 <http://model.geneontology.org/MONOMER3O-4032_6PGLUCONOLACT-RXN_controller>
         a       <http://identifiers.org/sgd/S000001206> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -2583,7 +2372,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2591,31 +2380,12 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Protein" .
 
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_RO_0002234_CHEBI_59776_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/2TRANSKETO-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_59776_2TRANSKETO-RXN>
-] .
-
 <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_BFO_0000066_reaction_6PGLUCONOLACT-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2623,21 +2393,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_BFO_0000066_reaction_TRANSALDOL-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002333_YLR354C-MONOMER_TRANSALDOL-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/TRANSALDOL-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_TRANSALDOL-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/YLR354C-MONOMER_TRANSALDOL-RXN_controller>
 ] .
 
 <http://model.geneontology.org/reaction_2TRANSKETO-RXN_location_lociGO_0005829>
@@ -2645,27 +2415,27 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_BFO_0000066_reaction_RIB5PISOM-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RIB5PISOM-RXN_RO_0002233_CHEBI_58121_RXN-9952_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RIB5PISOM-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_RIB5PISOM-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_58121_RXN-9952>
 ] .
 
 <http://model.geneontology.org/ev_w_id_GLU6PDEHYDROG-RXN_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -2673,7 +2443,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2686,49 +2456,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_6PGLUCONOLACT-RXN_RO_0002333_MONOMER3O-4032_6PGLUCONOLACT-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_RO_0002333_YPR074C-MONOMER_1TRANSKETO-RXN_controller_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/6PGLUCONOLACT-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/MONOMER3O-4032_6PGLUCONOLACT-RXN_controller>
-] .
-
-<http://model.geneontology.org/ev_w_id_TRANSALDOL-RXN_RO_0002413_2TRANSKETO-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000363> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PENTOSE-P-PWY" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_1TRANSKETO-RXN_BFO_0000066_reaction_1TRANSKETO-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/1TRANSKETO-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_1TRANSKETO-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/YPR074C-MONOMER_1TRANSKETO-RXN_controller>
 ] .
 
 <http://model.geneontology.org/CHEBI_78346_RIB5PISOM-RXN>
@@ -2740,7 +2480,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2757,7 +2497,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2769,19 +2509,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PENTOSE-P-PWY" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RIBULP3EPIM-RXN_RO_0002234_CHEBI_57737_RIBULP3EPIM-RXN_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
+          <http://model.geneontology.org/ev_w_id_RXN-9952_BFO_0000050_YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY_SGD_PWY_YeastPathways_PENTOSE-P-PWY> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RIBULP3EPIM-RXN> ;
+          <http://model.geneontology.org/RXN-9952> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57737_RIBULP3EPIM-RXN>
+          <http://model.geneontology.org/YeastPathways_PENTOSE-P-PWY/YeastPathways_PENTOSE-P-PWY>
 ] .
 
 <http://model.geneontology.org/ev_w_id_2TRANSKETO-RXN_BFO_0000066_reaction_2TRANSKETO-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PENTOSE-P-PWY>
@@ -2789,7 +2529,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2804,7 +2544,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2817,7 +2557,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2828,7 +2568,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PENTOSE-P-PWY" ;
         <http://purl.org/pav/providedBy>
@@ -2843,7 +2583,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>

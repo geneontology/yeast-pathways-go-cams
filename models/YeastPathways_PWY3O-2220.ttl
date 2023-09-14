@@ -1,39 +1,20 @@
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002234_CHEBI_17368_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_BFO_0000066_reaction_AMP-DEAMINASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
+          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_17368_INOPHOSPHOR-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002411_ADENINE-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002411> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/ADENINE-DEAMINASE-RXN>
+          <http://model.geneontology.org/reaction_AMP-DEAMINASE-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -41,7 +22,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -55,7 +36,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -71,7 +52,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -86,7 +67,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
@@ -103,7 +84,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -122,21 +103,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002234_CHEBI_58053_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_BFO_0000066_reaction_HYPOXANPRIBOSYLTRAN-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
+          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58053_AMP-DEAMINASE-RXN>
+          <http://model.geneontology.org/reaction_HYPOXANPRIBOSYLTRAN-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_BFO_0000066_reaction_AMP-DEAMINASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -144,7 +125,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -154,11 +135,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002234_CHEBI_15378_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002234_CHEBI_456215_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -166,7 +147,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_ADENOSINE-KINASE-RXN>
+          <http://model.geneontology.org/CHEBI_456215_ADENOSINE-KINASE-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_29888_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -174,7 +155,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -185,7 +166,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -196,7 +177,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -208,17 +189,6 @@
 <http://purl.obolibrary.org/obo/CHEBI_15377>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002413_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000363> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-2220" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/YNL141W-MONOMER_ADENINE-DEAMINASE-RXN_controller>
         a       <http://identifiers.org/sgd/S000005085> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -226,7 +196,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -243,7 +213,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -255,19 +225,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002333_YDR399W-MONOMER_HYPOXANPRIBOSYLTRAN-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002233_CHEBI_17596_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
+          <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YDR399W-MONOMER_HYPOXANPRIBOSYLTRAN-RXN_controller>
+          <http://model.geneontology.org/CHEBI_17596_INOPHOSPHOR-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002233_CHEBI_16335_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -275,7 +245,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -285,23 +255,20 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_58017_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_456215_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58017_ADENPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/CHEBI_456215_ADENPRIBOSYLTRAN-RXN>
 ] .
-
-<http://purl.obolibrary.org/obo/ECO_0000363>
-        a       <http://www.w3.org/2002/07/owl#Class> .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -311,7 +278,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -331,7 +298,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/title>
                 "salvage pathways of adenine, hypoxanthine and their nucleosides - imported from: Saccharomyces Genome Database" ;
         <http://purl.org/pav/providedBy>
@@ -345,25 +312,6 @@
 <http://purl.obolibrary.org/obo/CHEBI_29888>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'inosine + phosphate &rarr; &alpha;-D-ribose-1-phosphate + hypoxanthine' 'null' 'IMP + diphosphate &larr; 5-phospho-&alpha;-D-ribose 1-diphosphate + hypoxanthine' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002413_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN>
-] .
-
 <http://model.geneontology.org/YDR399W-MONOMER_HYPOXANPRIBOSYLTRAN-RXN_controller>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/sgd/S000002807> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -371,7 +319,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -381,21 +329,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_BFO_0000066_reaction_AMP-DEAMINASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002233_CHEBI_456215_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_AMP-DEAMINASE-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_456215_ADENPRIBOSYLTRAN-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002234_CHEBI_58053_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -403,7 +351,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -414,7 +362,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -432,7 +380,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -445,7 +393,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -456,7 +404,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -470,7 +418,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -483,7 +431,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -496,7 +444,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -507,21 +455,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_BFO_0000066_reaction_HYPOXANPRIBOSYLTRAN-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_29888_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_HYPOXANPRIBOSYLTRAN-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_29888_HYPOXANPRIBOSYLTRAN-RXN>
 ] .
 
 <http://geneontology.org/lego/modelstate>
@@ -531,19 +479,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002333_YJR105W-MONOMER_ADENOSINE-KINASE-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
+          <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YJR105W-MONOMER_ADENOSINE-KINASE-RXN_controller>
+          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
 ] .
 
 <http://purl.obolibrary.org/obo/RO_0002234>
@@ -563,12 +511,10 @@
                 <http://model.geneontology.org/CHEBI_17368_ADENINE-DEAMINASE-RXN> , <http://model.geneontology.org/CHEBI_28938_ADENINE-DEAMINASE-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YNL141W-MONOMER_ADENINE-DEAMINASE-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -585,7 +531,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -602,7 +548,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -614,19 +560,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002233_CHEBI_17596_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002234_CHEBI_57720_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_17596_INOPHOSPHOR-RXN>
+          <http://model.geneontology.org/CHEBI_57720_INOPHOSPHOR-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002233_CHEBI_17596_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -634,7 +580,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -647,19 +593,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002333_YDR441C-MONOMER_ADENPRIBOSYLTRAN-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002411_ADENINE-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002411> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YDR441C-MONOMER_ADENPRIBOSYLTRAN-RXN_controller>
+          <http://model.geneontology.org/ADENINE-DEAMINASE-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_16708_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -667,14 +613,11 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-<http://purl.obolibrary.org/obo/RO_0002413>
-        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -684,7 +627,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -704,7 +647,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -724,7 +667,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -742,30 +685,30 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002233_CHEBI_456215_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002333_YML035C-MONOMER_AMP-DEAMINASE-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_456215_ADENPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/YML035C-MONOMER_AMP-DEAMINASE-RXN_controller>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002233_CHEBI_16335_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002233_CHEBI_30616_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -773,7 +716,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16335_ADENOSINE-KINASE-RXN>
+          <http://model.geneontology.org/CHEBI_30616_ADENOSINE-KINASE-RXN>
 ] .
 
 <http://model.geneontology.org/CHEBI_58017_HYPOXANPRIBOSYLTRAN-RXN>
@@ -785,7 +728,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -798,7 +741,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -813,13 +756,24 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-2220SmallMolecule48104> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
+
+<http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-09-14" ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY3O-2220" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 <http://purl.obolibrary.org/obo/GO_0005829>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -833,24 +787,13 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-2220SmallMolecule48231> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-2220" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/YML035C-MONOMER_AMP-DEAMINASE-RXN_controller>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/sgd/S000004498> ;
@@ -859,7 +802,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -871,19 +814,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_29888_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
+          <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_29888_HYPOXANPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
 ] .
 
 <http://model.geneontology.org/reaction_ADENPRIBOSYLTRAN-RXN_location_lociGO_0005829>
@@ -891,27 +834,27 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_BFO_0000066_reaction_ADENPRIBOSYLTRAN-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_58017_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_ADENPRIBOSYLTRAN-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_58017_ADENPRIBOSYLTRAN-RXN>
 ] .
 
 <http://purl.obolibrary.org/obo/GO_0000034>
@@ -932,7 +875,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -945,7 +888,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -956,7 +899,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -967,7 +910,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -979,38 +922,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002234_CHEBI_57720_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002233_CHEBI_15377_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
+          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57720_INOPHOSPHOR-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Provides Input For Rule. The relation 'AMP + diphosphate &larr; 5-phospho-&alpha;-D-ribose 1-diphosphate + adenine' 'null' 'AMP + H<SUP>+</SUP> + H<sub>2</sub>O &rarr; IMP + ammonium' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002413_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/AMP-DEAMINASE-RXN>
+          <http://model.geneontology.org/CHEBI_15377_AMP-DEAMINASE-RXN>
 ] .
 
 <http://model.geneontology.org/CHEBI_456215_ADENPRIBOSYLTRAN-RXN>
@@ -1022,16 +946,13 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-2220SmallMolecule48120> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://purl.obolibrary.org/obo/GO_0004001>
-        a       <http://www.w3.org/2002/07/owl#Class> .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -1041,7 +962,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1052,12 +973,15 @@
           <http://model.geneontology.org/YNL141W-MONOMER_ADENINE-DEAMINASE-RXN_controller>
 ] .
 
+<http://purl.obolibrary.org/obo/GO_0004001>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
 <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1068,7 +992,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1082,7 +1006,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1092,30 +1016,30 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002333_YML035C-MONOMER_AMP-DEAMINASE-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_17368_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
+          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YML035C-MONOMER_AMP-DEAMINASE-RXN_controller>
+          <http://model.geneontology.org/CHEBI_17368_INOPHOSPHOR-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002234_CHEBI_456215_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002234_CHEBI_456216_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1123,7 +1047,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_456215_ADENOSINE-KINASE-RXN>
+          <http://model.geneontology.org/CHEBI_456216_ADENOSINE-KINASE-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -1131,7 +1055,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1151,12 +1075,10 @@
                 <http://model.geneontology.org/CHEBI_17368_INOPHOSPHOR-RXN> , <http://model.geneontology.org/CHEBI_57720_INOPHOSPHOR-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YLR209C-MONOMER_INOPHOSPHOR-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1169,7 +1091,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1180,7 +1102,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1221,7 +1143,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1236,38 +1158,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002233_CHEBI_43474_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
+          <http://model.geneontology.org/CHEBI_43474_INOPHOSPHOR-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_29888_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002333_YDR441C-MONOMER_ADENPRIBOSYLTRAN-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_29888_ADENPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/YDR441C-MONOMER_ADENPRIBOSYLTRAN-RXN_controller>
 ] .
 
 <http://purl.obolibrary.org/obo/RO_0002411>
@@ -1282,7 +1204,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1298,7 +1220,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1317,7 +1239,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1328,7 +1250,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1339,7 +1261,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1349,38 +1271,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002233_CHEBI_15377_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002234_CHEBI_28938_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15377_AMP-DEAMINASE-RXN>
+          <http://model.geneontology.org/CHEBI_28938_AMP-DEAMINASE-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_BFO_0000066_reaction_ADENOSINE-KINASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
+          <http://model.geneontology.org/reaction_ADENOSINE-KINASE-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_29888_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -1388,7 +1310,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1399,7 +1321,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1410,7 +1332,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1426,38 +1348,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_17368_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_58053_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_17368_INOPHOSPHOR-RXN>
+          <http://model.geneontology.org/CHEBI_58053_HYPOXANPRIBOSYLTRAN-RXN>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Provides Input For Rule. The relation 'adenosine + ATP &rarr; AMP + ADP + H<SUP>+</SUP>' 'null' 'AMP + H<SUP>+</SUP> + H<sub>2</sub>O &rarr; IMP + ammonium' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002413_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_BFO_0000066_reaction_ADENPRIBOSYLTRAN-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
+          <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/AMP-DEAMINASE-RXN>
+          <http://model.geneontology.org/reaction_ADENPRIBOSYLTRAN-RXN_location_lociGO_0005829>
 ] .
 
 <http://model.geneontology.org/CHEBI_456216_ADENOSINE-KINASE-RXN>
@@ -1469,7 +1391,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1482,7 +1404,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1497,7 +1419,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1509,38 +1431,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002233_CHEBI_43474_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002333_YLR209C-MONOMER_INOPHOSPHOR-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_43474_INOPHOSPHOR-RXN>
+          <http://model.geneontology.org/YLR209C-MONOMER_INOPHOSPHOR-RXN_controller>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002333_YML022W-MONOMER_ADENPRIBOSYLTRAN-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
+          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YML022W-MONOMER_ADENPRIBOSYLTRAN-RXN_controller>
+          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -1551,7 +1473,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1583,7 +1505,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1595,38 +1517,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002234_CHEBI_28938_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
+          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_28938_AMP-DEAMINASE-RXN>
+          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002233_CHEBI_30616_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002234_CHEBI_15378_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_30616_ADENOSINE-KINASE-RXN>
+          <http://model.geneontology.org/CHEBI_15378_ADENOSINE-KINASE-RXN>
 ] .
 
 <http://model.geneontology.org/CHEBI_17368_INOPHOSPHOR-RXN>
@@ -1638,7 +1560,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1661,7 +1583,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1669,53 +1591,42 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
-<http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002413_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-2220" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_58053_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_BFO_0000066_reaction_INOPHOSPHOR-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
+          <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58053_HYPOXANPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/reaction_INOPHOSPHOR-RXN_location_lociGO_0005829>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_16708_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_29888_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16708_ADENPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/CHEBI_29888_ADENPRIBOSYLTRAN-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002233_CHEBI_30616_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -1723,7 +1634,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1737,7 +1648,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1748,23 +1659,12 @@
           <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
 ] .
 
-<http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002413_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
-        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-2220" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002234_CHEBI_57720_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1782,7 +1682,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1799,43 +1699,13 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-2220SmallMolecule48299> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://model.geneontology.org/ev_w_id_ADENINE-DEAMINASE-RXN_RO_0002413_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000363> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-2220" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002333_YLR209C-MONOMER_INOPHOSPHOR-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YLR209C-MONOMER_INOPHOSPHOR-RXN_controller>
-] .
 
 <http://model.geneontology.org/CHEBI_15377_AMP-DEAMINASE-RXN>
         a       <http://purl.obolibrary.org/obo/CHEBI_15377> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -1846,7 +1716,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1858,38 +1728,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002233_CHEBI_15378_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_15378_AMP-DEAMINASE-RXN>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
+          <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Provides Input For Rule. The relation 'adenine + H<SUP>+</SUP> + H<sub>2</sub>O &rarr; ammonium + hypoxanthine' 'null' 'IMP + diphosphate &larr; 5-phospho-&alpha;-D-ribose 1-diphosphate + hypoxanthine' was inferred because:\n reaction1 has an output that is an input of reaction 2. " ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENINE-DEAMINASE-RXN_RO_0002413_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002413> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/ADENINE-DEAMINASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002233_CHEBI_456215_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -1897,7 +1767,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1907,19 +1777,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_58017_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
+          <http://model.geneontology.org/CHEBI_58017_HYPOXANPRIBOSYLTRAN-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002233_CHEBI_43474_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -1927,7 +1797,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1937,19 +1807,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002234_CHEBI_456216_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002333_YJR105W-MONOMER_ADENOSINE-KINASE-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_456216_ADENOSINE-KINASE-RXN>
+          <http://model.geneontology.org/YJR105W-MONOMER_ADENOSINE-KINASE-RXN_controller>
 ] .
 
 <http://purl.obolibrary.org/obo/RO_0002233>
@@ -1960,7 +1830,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -1976,7 +1846,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1991,7 +1861,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2011,7 +1881,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2024,7 +1894,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -2033,7 +1903,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -2042,7 +1912,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2050,21 +1920,21 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_BFO_0000066_reaction_INOPHOSPHOR-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_INOPHOSPHOR-RXN_RO_0002234_CHEBI_17368_INOPHOSPHOR-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/INOPHOSPHOR-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_INOPHOSPHOR-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_17368_INOPHOSPHOR-RXN>
 ] .
 
 <http://model.geneontology.org/ADENOSINE-KINASE-RXN>
@@ -2081,12 +1951,10 @@
                 <http://model.geneontology.org/CHEBI_456216_ADENOSINE-KINASE-RXN> , <http://model.geneontology.org/CHEBI_15378_ADENOSINE-KINASE-RXN> , <http://model.geneontology.org/CHEBI_456215_ADENOSINE-KINASE-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YJR105W-MONOMER_ADENOSINE-KINASE-RXN_controller> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2098,19 +1966,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002234_CHEBI_456215_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002333_YML022W-MONOMER_ADENPRIBOSYLTRAN-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_456215_ADENPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/YML022W-MONOMER_ADENPRIBOSYLTRAN-RXN_controller>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -2118,7 +1986,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2129,7 +1997,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -2141,7 +2009,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -2157,7 +2025,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2168,7 +2036,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2183,7 +2051,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2198,7 +2066,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2214,7 +2082,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2227,38 +2095,38 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002233_CHEBI_15378_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_AMP-DEAMINASE-RXN_RO_0002234_CHEBI_58053_AMP-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_58053_AMP-DEAMINASE-RXN>
+] .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_RO_0002233_CHEBI_16335_ADENOSINE-KINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15378_AMP-DEAMINASE-RXN>
-] .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" , "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENOSINE-KINASE-RXN_BFO_0000066_reaction_ADENOSINE-KINASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_PWY3O-2220> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENOSINE-KINASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_ADENOSINE-KINASE-RXN_location_lociGO_0005829>
+          <http://model.geneontology.org/CHEBI_16335_ADENOSINE-KINASE-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ADENINE-DEAMINASE-RXN_RO_0002234_CHEBI_28938_ADENINE-DEAMINASE-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -2266,7 +2134,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2277,7 +2145,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2288,7 +2156,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2303,7 +2171,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2328,7 +2196,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -2340,19 +2208,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_58017_HYPOXANPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_HYPOXANPRIBOSYLTRAN-RXN_RO_0002333_YDR399W-MONOMER_HYPOXANPRIBOSYLTRAN-RXN_controller_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/HYPOXANPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58017_HYPOXANPRIBOSYLTRAN-RXN>
+          <http://model.geneontology.org/YDR399W-MONOMER_HYPOXANPRIBOSYLTRAN-RXN_controller>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_17368>
@@ -2363,7 +2231,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2374,7 +2242,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2384,19 +2252,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-2220" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_BFO_0000050_YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220_SGD_PWY_YeastPathways_PWY3O-2220> ;
+          <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_16708_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-08-10" ;
+          "2023-09-14" ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADENPRIBOSYLTRAN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_PWY3O-2220/YeastPathways_PWY3O-2220>
+          <http://model.geneontology.org/CHEBI_16708_ADENPRIBOSYLTRAN-RXN>
 ] .
 
 <http://model.geneontology.org/ev_w_id_ADENPRIBOSYLTRAN-RXN_RO_0002233_CHEBI_58017_ADENPRIBOSYLTRAN-RXN_SGD_PWY_YeastPathways_PWY3O-2220>
@@ -2404,7 +2272,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2421,7 +2289,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-2220" ;
         <http://purl.org/pav/providedBy>
@@ -2443,12 +2311,10 @@
                 <http://model.geneontology.org/YDR441C-MONOMER_ADENPRIBOSYLTRAN-RXN_controller> , <http://model.geneontology.org/YML022W-MONOMER_ADENPRIBOSYLTRAN-RXN_controller> ;
         <http://purl.obolibrary.org/obo/RO_0002411>
                 <http://model.geneontology.org/ADENINE-DEAMINASE-RXN> ;
-        <http://purl.obolibrary.org/obo/RO_0002413>
-                <http://model.geneontology.org/AMP-DEAMINASE-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-08-10" ;
+                "2023-09-14" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
