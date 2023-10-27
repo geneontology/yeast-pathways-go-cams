@@ -5,13 +5,41 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
                 "YeastPathways_PWY3O-1874" ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Pathway" .
+
+<http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_17836_cytosol_SGD_PWY_YeastPathways_PWY3O-1874>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY3O-1874" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/CHEBI_29985_cytosol>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_29985> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "glu" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54207> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -21,7 +49,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -38,20 +66,20 @@
 <http://purl.obolibrary.org/obo/GO_0005829>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/CHEBI_29985_PABASYN-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_29985> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+<http://model.geneontology.org/CHEBI_29748_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_29748> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "located_in cytosol" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "glu" ;
+                "chorismate" ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54207> ;
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54180> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
@@ -60,18 +88,35 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/CHEBI_58359_cytosol>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_58359> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "gln" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54164> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002333_YNR033W-MONOMER_PABASYN-RXN_controller_SGD_PWY_YeastPathways_PWY3O-1874>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
@@ -95,15 +140,15 @@
         <http://purl.obolibrary.org/obo/BFO_0000066>
                 <http://model.geneontology.org/reaction_PABASYN-RXN_location_lociGO_0005829> ;
         <http://purl.obolibrary.org/obo/RO_0002233>
-                <http://model.geneontology.org/CHEBI_29748_PABASYN-RXN> , <http://model.geneontology.org/CHEBI_58359_PABASYN-RXN> ;
+                <http://model.geneontology.org/CHEBI_58359_cytosol> , <http://model.geneontology.org/CHEBI_29748_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002234>
-                <http://model.geneontology.org/CHEBI_58406_PABASYN-RXN> , <http://model.geneontology.org/CHEBI_29985_PABASYN-RXN> ;
+                <http://model.geneontology.org/CHEBI_29985_cytosol> , <http://model.geneontology.org/CHEBI_58406_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YNR033W-MONOMER_PABASYN-RXN_controller> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -119,7 +164,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -134,11 +179,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-1874" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_15361_ADCLY-RXN_SGD_PWY_YeastPathways_PWY3O-1874> ;
+          <http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_15361_cytosol_SGD_PWY_YeastPathways_PWY3O-1874> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -146,7 +191,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADCLY-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15361_ADCLY-RXN>
+          <http://model.geneontology.org/CHEBI_15361_cytosol>
 ] .
 
 <http://model.geneontology.org/MONOMER3O-131_ADCLY-RXN_controller>
@@ -156,7 +201,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -178,7 +223,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
@@ -189,7 +234,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
@@ -200,7 +245,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
@@ -208,23 +253,6 @@
 
 <http://purl.obolibrary.org/obo/GO_0019438>
         a       <http://www.w3.org/2002/07/owl#Class> .
-
-<http://model.geneontology.org/CHEBI_58359_PABASYN-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_58359> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "gln" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54164> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://purl.org/dc/elements/1.1/source>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -237,7 +265,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -251,30 +279,19 @@
 <http://purl.obolibrary.org/obo/GO_0046820>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://identifiers.org/sgd/S000005316>
-        a       <http://www.w3.org/2002/07/owl#Class> .
-
-<http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_15361_ADCLY-RXN_SGD_PWY_YeastPathways_PWY3O-1874>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-1874" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002233_CHEBI_58406_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874>
+<http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_15361_cytosol_SGD_PWY_YeastPathways_PWY3O-1874>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
+
+<http://identifiers.org/sgd/S000005316>
+        a       <http://www.w3.org/2002/07/owl#Class> .
 
 <http://purl.obolibrary.org/obo/RO_0002333>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -283,11 +300,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-1874" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_58406_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874> ;
+          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_58406_cytosol_SGD_PWY_YeastPathways_PWY3O-1874> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -295,18 +312,18 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/PABASYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58406_PABASYN-RXN>
+          <http://model.geneontology.org/CHEBI_58406_cytosol>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-1874" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002233_CHEBI_58406_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874> ;
+          <http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002233_CHEBI_58406_cytosol_SGD_PWY_YeastPathways_PWY3O-1874> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -314,7 +331,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADCLY-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58406_PABASYN-RXN>
+          <http://model.geneontology.org/CHEBI_58406_cytosol>
 ] .
 
 <http://identifiers.org/sgd/S000004902>
@@ -323,48 +340,31 @@
 <http://purl.obolibrary.org/obo/RO_0002233>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
-<http://model.geneontology.org/CHEBI_29748_PABASYN-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_29748> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "chorismate" ;
+<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_29748_cytosol_SGD_PWY_YeastPathways_PWY3O-1874>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54180> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_17836_ADCLY-RXN_SGD_PWY_YeastPathways_PWY3O-1874>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/CHEBI_58406_PABASYN-RXN>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_58406> ;
+<http://model.geneontology.org/CHEBI_17836_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_17836> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "located_in cytosol" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "4-amino-4-deoxychorismate" ;
+                "4-aminobenzoate" ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54191> ;
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54244> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
@@ -379,7 +379,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -398,9 +398,26 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/CHEBI_15361_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_15361> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pyruvate" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54261> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://model.geneontology.org/CHEBI_15378_ADCLY-RXN>
         a       <http://purl.obolibrary.org/obo/CHEBI_15378> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -411,7 +428,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -424,7 +441,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
@@ -442,15 +459,15 @@
         <http://purl.obolibrary.org/obo/BFO_0000066>
                 <http://model.geneontology.org/reaction_ADCLY-RXN_location_lociGO_0005829> ;
         <http://purl.obolibrary.org/obo/RO_0002233>
-                <http://model.geneontology.org/CHEBI_58406_PABASYN-RXN> ;
+                <http://model.geneontology.org/CHEBI_58406_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002234>
-                <http://model.geneontology.org/CHEBI_15378_ADCLY-RXN> , <http://model.geneontology.org/CHEBI_15361_ADCLY-RXN> , <http://model.geneontology.org/CHEBI_17836_ADCLY-RXN> ;
+                <http://model.geneontology.org/CHEBI_17836_cytosol> , <http://model.geneontology.org/CHEBI_15378_ADCLY-RXN> , <http://model.geneontology.org/CHEBI_15361_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/MONOMER3O-131_ADCLY-RXN_controller> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -462,11 +479,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-1874" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_29985_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874> ;
+          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_29985_cytosol_SGD_PWY_YeastPathways_PWY3O-1874> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -474,7 +491,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/PABASYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_29985_PABASYN-RXN>
+          <http://model.geneontology.org/CHEBI_29985_cytosol>
 ] .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
@@ -485,7 +502,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -496,50 +513,22 @@
           <http://model.geneontology.org/reaction_ADCLY-RXN_location_lociGO_0005829>
 ] .
 
-<http://model.geneontology.org/CHEBI_17836_ADCLY-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_17836> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "4-aminobenzoate" ;
+<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_58359_cytosol_SGD_PWY_YeastPathways_PWY3O-1874>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54244> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
+                "http://www.yeastgenome.org" .
 
 <http://geneontology.org/lego/evidence>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_29748_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-1874" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://purl.org/dc/elements/1.1/date>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_29985_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-1874" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -549,7 +538,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -563,6 +552,17 @@
 <http://geneontology.org/lego/modelstate>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
+<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_29985_cytosol_SGD_PWY_YeastPathways_PWY3O-1874>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY3O-1874" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
 <http://purl.obolibrary.org/obo/ECO_0000313>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
@@ -571,7 +571,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -579,11 +579,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-1874" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_58359_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874> ;
+          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_58359_cytosol_SGD_PWY_YeastPathways_PWY3O-1874> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -591,11 +591,22 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/PABASYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58359_PABASYN-RXN>
+          <http://model.geneontology.org/CHEBI_58359_cytosol>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_15361>
         a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_58406_cytosol_SGD_PWY_YeastPathways_PWY3O-1874>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY3O-1874" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -605,7 +616,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -628,13 +639,24 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/title>
                 "p-aminobenzoate biosynthesis - imported from: Saccharomyces Genome Database" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <https://w3id.org/biolink/vocab/in_taxon>
                 <http://purl.obolibrary.org/obo/NCBITaxon_559292> .
+
+<http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002233_CHEBI_58406_cytosol_SGD_PWY_YeastPathways_PWY3O-1874>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:PWY3O-1874" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 <http://model.geneontology.org/YNR033W-MONOMER_PABASYN-RXN_controller>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/sgd/S000005316> ;
@@ -643,7 +665,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -654,50 +676,11 @@
 <http://www.w3.org/2004/02/skos/core#exactMatch>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_58359_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-1874" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://purl.org/dc/elements/1.1/contributor>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
 <http://purl.obolibrary.org/obo/CHEBI_17836>
         a       <http://www.w3.org/2002/07/owl#Class> .
-
-<http://model.geneontology.org/CHEBI_15361_ADCLY-RXN>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15361> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "pyruvate" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54261> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-<http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002234_CHEBI_58406_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:PWY3O-1874" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <https://w3id.org/biolink/vocab/in_taxon>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -706,11 +689,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-1874" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_17836_ADCLY-RXN_SGD_PWY_YeastPathways_PWY3O-1874> ;
+          <http://model.geneontology.org/ev_w_id_ADCLY-RXN_RO_0002234_CHEBI_17836_cytosol_SGD_PWY_YeastPathways_PWY3O-1874> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -718,8 +701,25 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/ADCLY-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_17836_ADCLY-RXN>
+          <http://model.geneontology.org/CHEBI_17836_cytosol>
 ] .
+
+<http://model.geneontology.org/CHEBI_58406_cytosol>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_58406> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "4-amino-4-deoxychorismate" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=PWY3O-1874SmallMolecule54191> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://purl.obolibrary.org/obo/CHEBI_29748>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -728,11 +728,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=PWY3O-1874" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_29748_PABASYN-RXN_SGD_PWY_YeastPathways_PWY3O-1874> ;
+          <http://model.geneontology.org/ev_w_id_PABASYN-RXN_RO_0002233_CHEBI_29748_cytosol_SGD_PWY_YeastPathways_PWY3O-1874> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -740,7 +740,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/PABASYN-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_29748_PABASYN-RXN>
+          <http://model.geneontology.org/CHEBI_29748_cytosol>
 ] .
 
 <http://purl.org/dc/elements/1.1/title>
@@ -751,7 +751,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:PWY3O-1874" ;
         <http://purl.org/pav/providedBy>

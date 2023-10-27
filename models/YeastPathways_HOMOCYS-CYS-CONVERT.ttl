@@ -1,34 +1,23 @@
 <http://purl.obolibrary.org/obo/CHEBI_30089>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_35235_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002333_YJR130C-MONOMER_RXN-721_controller_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_30089_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002333> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RXN-721> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YJR130C-MONOMER_RXN-721_controller>
+          <http://model.geneontology.org/CHEBI_30089_cytosol>
 ] .
 
 <http://model.geneontology.org/YeastPathways_HOMOCYS-CYS-CONVERT>
@@ -40,7 +29,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/title>
                 "homocysteine and cysteine interconversion - imported from: Saccharomyces Genome Database" ;
         <http://purl.org/pav/providedBy>
@@ -48,48 +37,14 @@
         <https://w3id.org/biolink/vocab/in_taxon>
                 <http://purl.obolibrary.org/obo/NCBITaxon_559292> .
 
-<http://model.geneontology.org/CHEBI_35235_CYSTAGLY-RXN>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_35235> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "cys" ;
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_33384_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61049> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN>
-] .
-
-<http://model.geneontology.org/reaction_CYSTAGLY-RXN_location_lociGO_0005829>
-        a       <http://purl.obolibrary.org/obo/GO_0005829> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -97,11 +52,50 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16134_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_58199_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_58199_cytosol>
+] .
+
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002413_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000363> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/reaction_CYSTAGLY-RXN_location_lociGO_0005829>
+        a       <http://purl.obolibrary.org/obo/GO_0005829> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16134_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -109,25 +103,27 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTAGLY-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16134_CYSTAGLY-RXN>
+          <http://model.geneontology.org/CHEBI_16134_cytosol>
 ] .
 
-<http://model.geneontology.org/CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_58199> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "L-homocysteine" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61088> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_35235_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/RXN-721> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_35235_cytosol>
+] .
 
 <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0047804> ;
@@ -138,51 +134,21 @@
         <http://purl.obolibrary.org/obo/BFO_0000066>
                 <http://model.geneontology.org/reaction_CYSTATHIONINE-BETA-LYASE-RXN_location_lociGO_0005829> ;
         <http://purl.obolibrary.org/obo/RO_0002233>
-                <http://model.geneontology.org/CHEBI_58161_RXN-721> , <http://model.geneontology.org/CHEBI_15377_CYSTATHIONINE-BETA-LYASE-RXN> ;
+                <http://model.geneontology.org/CHEBI_15377_CYSTATHIONINE-BETA-LYASE-RXN> , <http://model.geneontology.org/CHEBI_58161_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002234>
-                <http://model.geneontology.org/CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN> , <http://model.geneontology.org/CHEBI_28938_CYSTATHIONINE-BETA-LYASE-RXN> , <http://model.geneontology.org/CHEBI_15361_CYSTATHIONINE-BETA-LYASE-RXN> ;
+                <http://model.geneontology.org/CHEBI_15361_cytosol> , <http://model.geneontology.org/CHEBI_28938_cytosol> , <http://model.geneontology.org/CHEBI_58199_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YGL184C-MONOMER_CYSTATHIONINE-BETA-LYASE-RXN_controller> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTBiochemicalReaction61112> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.BiochemicalReaction" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_30089_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-721> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_30089_RXN-721>
-] .
-
-<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_35235_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://purl.obolibrary.org/obo/GO_0005829>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -196,7 +162,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -207,52 +173,24 @@
 <http://identifiers.org/sgd/S000000010>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002233_CHEBI_58161_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/reaction_CYSTATHIONINE-BETA-SYNTHASE-RXN_location_lociGO_0005829>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005829> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/CHEBI_57716_RXN-721>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_57716> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "<i>O</i>-acetyl-L-homoserine" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61161> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002234_CHEBI_58161_CYSTATHIONINE-BETA-SYNTHASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002234_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -260,7 +198,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTATHIONINE-BETA-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58161_CYSTATHIONINE-BETA-SYNTHASE-RXN>
+          <http://model.geneontology.org/CHEBI_58161_cytosol>
 ] .
 
 <http://purl.obolibrary.org/obo/GO_0050667>
@@ -271,7 +209,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -286,7 +224,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -303,17 +241,6 @@
 <http://purl.org/pav/providedBy>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16134_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/YGR155W-MONOMER_CYSTATHIONINE-BETA-SYNTHASE-RXN_controller>
         a       <http://identifiers.org/sgd/S000003387> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -321,7 +248,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -329,45 +256,20 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Protein" .
 
-<http://identifiers.org/sgd/S000003387>
-        a       <http://www.w3.org/2002/07/owl#Class> .
-
-<http://purl.obolibrary.org/obo/GO_0004123>
-        a       <http://www.w3.org/2002/07/owl#Class> .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_28938_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_28938_CYSTATHIONINE-BETA-LYASE-RXN>
-] .
-
-<http://model.geneontology.org/CHEBI_58161_RXN-721>
-        a       <http://purl.obolibrary.org/obo/CHEBI_58161> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+<http://model.geneontology.org/CHEBI_35235_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_35235> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "located_in cytosol" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "L-cystathionine" ;
+                "cys" ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61002> ;
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61049> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
@@ -375,20 +277,23 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002233_CHEBI_58161_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_28938_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/CYSTAGLY-RXN> ;
+          <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58161_RXN-721>
+          <http://model.geneontology.org/CHEBI_28938_cytosol>
 ] .
+
+<http://purl.obolibrary.org/obo/GO_0004123>
+        a       <http://www.w3.org/2002/07/owl#Class> .
 
 <http://model.geneontology.org/YGL184C-MONOMER_CYSTATHIONINE-BETA-LYASE-RXN_controller>
         a       <http://identifiers.org/sgd/S000003152> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -397,7 +302,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -405,51 +310,45 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Protein" .
 
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/CHEBI_33384_CYSTATHIONINE-BETA-SYNTHASE-RXN>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_33384> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "ser" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61102> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_57716_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002233_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
           <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/CYSTAGLY-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_58161_cytosol>
+] .
+
+<http://identifiers.org/sgd/S000003387>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_RXN-721_BFO_0000066_reaction_RXN-721_location_lociGO_0005829_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RXN-721> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_57716_RXN-721>
+          <http://model.geneontology.org/reaction_RXN-721_location_lociGO_0005829>
 ] .
 
 <http://purl.obolibrary.org/obo/CHEBI_15377>
@@ -460,34 +359,64 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
-<http://model.geneontology.org/CHEBI_28938_CYSTATHIONINE-BETA-LYASE-RXN>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_28938> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "ammonium" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61142> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
 <http://purl.obolibrary.org/obo/RO_0002234>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
 
+<http://purl.obolibrary.org/obo/RO_0002413>
+        a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002233_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16763_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
 <http://purl.obolibrary.org/obo/BFO_0000050>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_35235_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002413_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://purl.obolibrary.org/obo/ECO_0000363> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -497,7 +426,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -508,8 +437,19 @@
           <http://model.geneontology.org/CHEBI_15377_CYSTATHIONINE-BETA-SYNTHASE-RXN>
 ] .
 
-<http://model.geneontology.org/CHEBI_16763_CYSTAGLY-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_16763> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/CHEBI_16763_cytosol>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_16763> ;
         <http://www.w3.org/2000/01/rdf-schema#comment>
                 "located_in cytosol" ;
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -517,7 +457,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -525,15 +465,32 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
+<http://model.geneontology.org/CHEBI_28938_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_28938> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ammonium" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61142> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
+
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_33384_CYSTATHIONINE-BETA-SYNTHASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_33384_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -541,28 +498,22 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTATHIONINE-BETA-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_33384_CYSTATHIONINE-BETA-SYNTHASE-RXN>
+          <http://model.geneontology.org/CHEBI_33384_cytosol>
 ] .
 
 <http://purl.org/dc/elements/1.1/source>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-<http://model.geneontology.org/CHEBI_58161_CYSTATHIONINE-BETA-SYNTHASE-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_58161> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "L-cystathionine" ;
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_15361_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61002> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
+                "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -572,7 +523,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -583,23 +534,12 @@
           <http://model.geneontology.org/YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT>
 ] .
 
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_28938_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002333_YAL012W-MONOMER_CYSTAGLY-RXN_controller_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -610,7 +550,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -621,7 +561,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
 
@@ -632,11 +572,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_15361_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_15361_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -644,7 +584,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_15361_CYSTATHIONINE-BETA-LYASE-RXN>
+          <http://model.geneontology.org/CHEBI_15361_cytosol>
 ] .
 
 <http://purl.obolibrary.org/obo/GO_0004122>
@@ -658,7 +598,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -676,30 +616,47 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_35235_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_RXN-721_BFO_0000050_YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002233> ;
+          <http://purl.obolibrary.org/obo/BFO_0000050> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RXN-721> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_35235_CYSTAGLY-RXN>
+          <http://model.geneontology.org/YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT>
 ] .
 
 <http://purl.obolibrary.org/obo/RO_0002233>
         a       <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://model.geneontology.org/CHEBI_58161_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_58161> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "L-cystathionine" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61002> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002333_YGR155W-MONOMER_CYSTATHIONINE-BETA-SYNTHASE-RXN_controller_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -711,15 +668,27 @@
 <http://purl.obolibrary.org/obo/CHEBI_33384>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
+<http://purl.obolibrary.org/obo/ECO_0000363>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/reaction_RXN-721_location_lociGO_0005829>
+        a       <http://purl.obolibrary.org/obo/GO_0005829> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_58199_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -727,17 +696,8 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTATHIONINE-BETA-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN>
+          <http://model.geneontology.org/CHEBI_58199_cytosol>
 ] .
-
-<http://model.geneontology.org/reaction_RXN-721_location_lociGO_0005829>
-        a       <http://purl.obolibrary.org/obo/GO_0005829> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
 
 <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -750,7 +710,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -761,6 +721,17 @@
           <http://model.geneontology.org/reaction_CYSTATHIONINE-BETA-SYNTHASE-RXN_location_lociGO_0005829>
 ] .
 
+<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_57716_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
@@ -769,7 +740,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -780,23 +751,12 @@
           <http://model.geneontology.org/YAL012W-MONOMER_CYSTAGLY-RXN_controller>
 ] .
 
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
 <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002333_YGL184C-MONOMER_CYSTATHIONINE-BETA-LYASE-RXN_controller_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -807,7 +767,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -819,6 +779,23 @@
 <http://identifiers.org/sgd/S000003152>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
+<http://model.geneontology.org/CHEBI_15361_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_15361> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "pyruvate" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61128> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
+
 <http://purl.obolibrary.org/obo/CHEBI_58161>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
@@ -826,11 +803,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002233_CHEBI_58161_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002233_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -838,26 +815,32 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58161_RXN-721>
+          <http://model.geneontology.org/CHEBI_58161_cytosol>
 ] .
 
-<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16763_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+<http://model.geneontology.org/CHEBI_57716_cytosol>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_57716> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "<i>O</i>-acetyl-L-homoserine" ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61161> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_BFO_0000050_YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16134_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -872,13 +855,24 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.geneontology.org/formats/oboInOwl#hasDbXref>
                 "YeastPathways_HOMOCYS-CYS-CONVERT" ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Pathway" .
+
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_BFO_0000050_YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
@@ -888,7 +882,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -899,35 +893,35 @@
           <http://model.geneontology.org/reaction_CYSTAGLY-RXN_location_lociGO_0005829>
 ] .
 
-<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002233_CHEBI_58161_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Provides Input For Rule. The relation 'L-homocysteine + L-serine &harr; L-cystathionine + H<sub>2</sub>O' 'null' 'L-cystathionine + H<sub>2</sub>O &rarr; L-homocysteine + pyruvate + ammonium' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002413_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002413> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/CYSTATHIONINE-BETA-SYNTHASE-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN>
+] .
+
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_58199_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-721_BFO_0000066_reaction_RXN-721_location_lociGO_0005829_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-721> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_RXN-721_location_lociGO_0005829>
-] .
 
 <http://purl.obolibrary.org/obo/CHEBI_35235>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -939,7 +933,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -947,37 +941,12 @@
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.Protein" .
 
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_15361_CYSTATHIONINE-BETA-LYASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_30089_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
         a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_58161_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://geneontology.org/lego/evidence>
-        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_BFO_0000066_reaction_CYSTATHIONINE-BETA-LYASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -985,6 +954,84 @@
 
 <http://identifiers.org/sgd/S000003891>
         a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://geneontology.org/lego/evidence>
+        a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://model.geneontology.org/CHEBI_33384_cytosol>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_33384> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ser" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61102> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
+
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_BFO_0000066_reaction_CYSTATHIONINE-BETA-LYASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002234_CHEBI_28938_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002333_YJR130C-MONOMER_RXN-721_controller_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002333> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/RXN-721> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/YJR130C-MONOMER_RXN-721_controller>
+] .
+
+<http://model.geneontology.org/CHEBI_16134_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_16134> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "ammonia" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61063> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://purl.org/dc/elements/1.1/date>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -997,7 +1044,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1013,7 +1060,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -1023,11 +1070,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_35235_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_35235_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1035,7 +1082,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTAGLY-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_35235_CYSTAGLY-RXN>
+          <http://model.geneontology.org/CHEBI_35235_cytosol>
 ] .
 
 <http://geneontology.org/lego/modelstate>
@@ -1048,7 +1095,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1061,28 +1108,11 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/CHEBI_30089_RXN-721>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_30089> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "acetate" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61178> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
 
 <http://purl.obolibrary.org/obo/ECO_0000313>
         a       <http://www.w3.org/2002/07/owl#Class> .
@@ -1092,7 +1122,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -1106,7 +1136,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1117,6 +1147,23 @@
           <http://model.geneontology.org/CHEBI_15377_CYSTATHIONINE-BETA-LYASE-RXN>
 ] .
 
+<http://model.geneontology.org/CHEBI_58199_cytosol>
+        a       <http://purl.obolibrary.org/obo/CHEBI_58199> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "L-homocysteine" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61088> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
+
 <http://model.geneontology.org/RXN-721>
         a       <http://purl.obolibrary.org/obo/GO_0102028> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -1126,15 +1173,15 @@
         <http://purl.obolibrary.org/obo/BFO_0000066>
                 <http://model.geneontology.org/reaction_RXN-721_location_lociGO_0005829> ;
         <http://purl.obolibrary.org/obo/RO_0002233>
-                <http://model.geneontology.org/CHEBI_35235_CYSTAGLY-RXN> , <http://model.geneontology.org/CHEBI_57716_RXN-721> ;
+                <http://model.geneontology.org/CHEBI_35235_cytosol> , <http://model.geneontology.org/CHEBI_57716_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002234>
-                <http://model.geneontology.org/CHEBI_30089_RXN-721> , <http://model.geneontology.org/CHEBI_58161_RXN-721> ;
+                <http://model.geneontology.org/CHEBI_30089_cytosol> , <http://model.geneontology.org/CHEBI_58161_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YJR130C-MONOMER_RXN-721_controller> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1145,6 +1192,17 @@
 <http://purl.obolibrary.org/obo/CHEBI_15361>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002234_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
@@ -1153,7 +1211,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1166,29 +1224,29 @@
 
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+          "Provides Input For Rule. The relation 'L-homocysteine + L-serine &harr; L-cystathionine + H<sub>2</sub>O' 'null' 'L-cystathionine + H<sub>2</sub>O &harr; 2-oxobutanoate + L-cysteine + ammonia' was inferred because:\n reaction1 has an output that is an input of reaction 2. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-721_BFO_0000050_YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002413_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000050> ;
+          <http://purl.obolibrary.org/obo/RO_0002413> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/RXN-721> ;
+          <http://model.geneontology.org/CYSTATHIONINE-BETA-SYNTHASE-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT>
+          <http://model.geneontology.org/CYSTAGLY-RXN>
 ] .
 
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_33384_CYSTATHIONINE-BETA-SYNTHASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_RO_0002233_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -1206,29 +1264,12 @@
 <http://purl.obolibrary.org/obo/GO_0102028>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/CHEBI_15361_CYSTATHIONINE-BETA-LYASE-RXN>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15361> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "pyruvate" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61128> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
 <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002333_YJR130C-MONOMER_RXN-721_controller_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -1240,27 +1281,24 @@
 <http://purl.obolibrary.org/obo/CHEBI_57716>
         a       <http://www.w3.org/2002/07/owl#Class> .
 
-<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_57716_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
-
-<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002234_CHEBI_58161_CYSTATHIONINE-BETA-SYNTHASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_58161_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/RO_0002234> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/RXN-721> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/CHEBI_58161_cytosol>
+] .
 
 <http://model.geneontology.org/CYSTATHIONINE-BETA-SYNTHASE-RXN>
         a       <http://purl.obolibrary.org/obo/GO_0004122> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
@@ -1271,15 +1309,17 @@
         <http://purl.obolibrary.org/obo/BFO_0000066>
                 <http://model.geneontology.org/reaction_CYSTATHIONINE-BETA-SYNTHASE-RXN_location_lociGO_0005829> ;
         <http://purl.obolibrary.org/obo/RO_0002233>
-                <http://model.geneontology.org/CHEBI_33384_CYSTATHIONINE-BETA-SYNTHASE-RXN> , <http://model.geneontology.org/CHEBI_58199_CYSTATHIONINE-BETA-LYASE-RXN> ;
+                <http://model.geneontology.org/CHEBI_58199_cytosol> , <http://model.geneontology.org/CHEBI_33384_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002234>
-                <http://model.geneontology.org/CHEBI_58161_CYSTATHIONINE-BETA-SYNTHASE-RXN> , <http://model.geneontology.org/CHEBI_15377_CYSTATHIONINE-BETA-SYNTHASE-RXN> ;
+                <http://model.geneontology.org/CHEBI_58161_cytosol> , <http://model.geneontology.org/CHEBI_15377_CYSTATHIONINE-BETA-SYNTHASE-RXN> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YGR155W-MONOMER_CYSTATHIONINE-BETA-SYNTHASE-RXN_controller> ;
+        <http://purl.obolibrary.org/obo/RO_0002413>
+                <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> , <http://model.geneontology.org/CYSTAGLY-RXN> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1290,23 +1330,6 @@
 <https://w3id.org/biolink/vocab/in_taxon>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 
-<http://model.geneontology.org/CHEBI_16134_CYSTAGLY-RXN>
-        a       <http://purl.obolibrary.org/obo/CHEBI_16134> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://www.w3.org/2000/01/rdf-schema#comment>
-                "located_in cytosol" ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "ammonia" ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" ;
-        <http://www.w3.org/2004/02/skos/core#exactMatch>
-                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61063> ;
-        <http://www.w3.org/2004/02/skos/core#note>
-                "org.biopax.paxtools.model.level3.SmallMolecule" .
-
 [ a       <http://www.w3.org/2002/07/owl#Axiom> ;
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
@@ -1315,7 +1338,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1330,11 +1353,11 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16763_CYSTAGLY-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_16763_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1342,7 +1365,7 @@
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/CYSTAGLY-RXN> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_16763_CYSTAGLY-RXN>
+          <http://model.geneontology.org/CHEBI_16763_cytosol>
 ] .
 
 <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002234_CHEBI_15377_CYSTATHIONINE-BETA-SYNTHASE-RXN_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
@@ -1350,7 +1373,7 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -1365,15 +1388,15 @@
         <http://purl.obolibrary.org/obo/BFO_0000066>
                 <http://model.geneontology.org/reaction_CYSTAGLY-RXN_location_lociGO_0005829> ;
         <http://purl.obolibrary.org/obo/RO_0002233>
-                <http://model.geneontology.org/CHEBI_15377_CYSTAGLY-RXN> , <http://model.geneontology.org/CHEBI_58161_RXN-721> ;
+                <http://model.geneontology.org/CHEBI_15377_CYSTAGLY-RXN> , <http://model.geneontology.org/CHEBI_58161_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002234>
-                <http://model.geneontology.org/CHEBI_16134_CYSTAGLY-RXN> , <http://model.geneontology.org/CHEBI_16763_CYSTAGLY-RXN> , <http://model.geneontology.org/CHEBI_35235_CYSTAGLY-RXN> ;
+                <http://model.geneontology.org/CHEBI_16134_cytosol> , <http://model.geneontology.org/CHEBI_16763_cytosol> , <http://model.geneontology.org/CHEBI_35235_cytosol> ;
         <http://purl.obolibrary.org/obo/RO_0002333>
                 <http://model.geneontology.org/YAL012W-MONOMER_CYSTAGLY-RXN_controller> ;
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
@@ -1385,19 +1408,19 @@
   <http://www.w3.org/2000/01/rdf-schema#comment>
           "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
   <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_58161_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+          <http://model.geneontology.org/ev_w_id_RXN-721_RO_0002233_CHEBI_57716_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/RO_0002234> ;
+          <http://purl.obolibrary.org/obo/RO_0002233> ;
   <http://www.w3.org/2002/07/owl#annotatedSource>
           <http://model.geneontology.org/RXN-721> ;
   <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/CHEBI_58161_RXN-721>
+          <http://model.geneontology.org/CHEBI_57716_cytosol>
 ] .
 
 <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_BFO_0000050_YeastPathways_HOMOCYS-CYS-CONVERT/YeastPathways_HOMOCYS-CYS-CONVERT_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
@@ -1405,7 +1428,29 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/ev_w_id_CYSTAGLY-RXN_RO_0002234_CHEBI_35235_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000313> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/dc/elements/1.1/source>
+                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" .
+
+<http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-SYNTHASE-RXN_RO_0002233_CHEBI_58199_cytosol_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
+        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/dc/elements/1.1/source>
                 "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
         <http://purl.org/pav/providedBy>
@@ -1413,25 +1458,6 @@
 
 <http://purl.org/dc/elements/1.1/title>
         a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-
-[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
-  <http://www.w3.org/2000/01/rdf-schema#comment>
-          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
-  <http://geneontology.org/lego/evidence>
-          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_BFO_0000066_reaction_CYSTATHIONINE-BETA-LYASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
-  <http://purl.org/dc/elements/1.1/contributor>
-          "GOC:sgd_curators" ;
-  <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  <http://purl.org/pav/providedBy>
-          "http://www.yeastgenome.org" ;
-  <http://www.w3.org/2002/07/owl#annotatedProperty>
-          <http://purl.obolibrary.org/obo/BFO_0000066> ;
-  <http://www.w3.org/2002/07/owl#annotatedSource>
-          <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
-  <http://www.w3.org/2002/07/owl#annotatedTarget>
-          <http://model.geneontology.org/reaction_CYSTATHIONINE-BETA-LYASE-RXN_location_lociGO_0005829>
-] .
 
 <http://model.geneontology.org/CHEBI_15377_CYSTAGLY-RXN>
         a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_15377> ;
@@ -1442,11 +1468,47 @@
         <http://purl.org/dc/elements/1.1/contributor>
                 "GOC:sgd_curators" ;
         <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://purl.org/pav/providedBy>
                 "http://www.yeastgenome.org" ;
         <http://www.w3.org/2004/02/skos/core#exactMatch>
                 <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61018> ;
+        <http://www.w3.org/2004/02/skos/core#note>
+                "org.biopax.paxtools.model.level3.SmallMolecule" .
+
+[ a       <http://www.w3.org/2002/07/owl#Axiom> ;
+  <http://www.w3.org/2000/01/rdf-schema#comment>
+          "Occurs In Rule. This relation was asserted because all entities involved in the reaction are in the same location. " , "Imported from Saccharomyces Genome Database: https://pathway.yeastgenome.org/YEAST/NEW-IMAGE?object=HOMOCYS-CYS-CONVERT" ;
+  <http://geneontology.org/lego/evidence>
+          <http://model.geneontology.org/ev_w_id_CYSTATHIONINE-BETA-LYASE-RXN_BFO_0000066_reaction_CYSTATHIONINE-BETA-LYASE-RXN_location_lociGO_0005829_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT> ;
+  <http://purl.org/dc/elements/1.1/contributor>
+          "GOC:sgd_curators" ;
+  <http://purl.org/dc/elements/1.1/date>
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+  <http://purl.org/pav/providedBy>
+          "http://www.yeastgenome.org" ;
+  <http://www.w3.org/2002/07/owl#annotatedProperty>
+          <http://purl.obolibrary.org/obo/BFO_0000066> ;
+  <http://www.w3.org/2002/07/owl#annotatedSource>
+          <http://model.geneontology.org/CYSTATHIONINE-BETA-LYASE-RXN> ;
+  <http://www.w3.org/2002/07/owl#annotatedTarget>
+          <http://model.geneontology.org/reaction_CYSTATHIONINE-BETA-LYASE-RXN_location_lociGO_0005829>
+] .
+
+<http://model.geneontology.org/CHEBI_30089_cytosol>
+        a       <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CHEBI_30089> ;
+        <http://www.w3.org/2000/01/rdf-schema#comment>
+                "located_in cytosol" ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "acetate" ;
+        <http://purl.org/dc/elements/1.1/contributor>
+                "GOC:sgd_curators" ;
+        <http://purl.org/dc/elements/1.1/date>
+                "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://purl.org/pav/providedBy>
+                "http://www.yeastgenome.org" ;
+        <http://www.w3.org/2004/02/skos/core#exactMatch>
+                <http://http://pathway-2a.yeastgenome.org:8080//YEAST/pathway-biopax?type=3%38object=HOMOCYS-CYS-CONVERTSmallMolecule61178> ;
         <http://www.w3.org/2004/02/skos/core#note>
                 "org.biopax.paxtools.model.level3.SmallMolecule" .
 
@@ -1458,7 +1520,7 @@
   <http://purl.org/dc/elements/1.1/contributor>
           "GOC:sgd_curators" ;
   <http://purl.org/dc/elements/1.1/date>
-          "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
+          "2023-10-27"^^<http://www.w3.org/2001/XMLSchema#string> ;
   <http://purl.org/pav/providedBy>
           "http://www.yeastgenome.org" ;
   <http://www.w3.org/2002/07/owl#annotatedProperty>
@@ -1468,14 +1530,3 @@
   <http://www.w3.org/2002/07/owl#annotatedTarget>
           <http://model.geneontology.org/YGR155W-MONOMER_CYSTATHIONINE-BETA-SYNTHASE-RXN_controller>
 ] .
-
-<http://model.geneontology.org/ev_w_id_RXN-721_RO_0002234_CHEBI_30089_RXN-721_SGD_PWY_YeastPathways_HOMOCYS-CYS-CONVERT>
-        a       <http://purl.obolibrary.org/obo/ECO_0000313> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
-        <http://purl.org/dc/elements/1.1/contributor>
-                "GOC:sgd_curators" ;
-        <http://purl.org/dc/elements/1.1/date>
-                "2023-09-14"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://purl.org/dc/elements/1.1/source>
-                "SGD_PWY:HOMOCYS-CYS-CONVERT" ;
-        <http://purl.org/pav/providedBy>
-                "http://www.yeastgenome.org" .
